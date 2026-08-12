@@ -1,5 +1,6 @@
 {
   "logotext": "gerardomdn",
+  "accessibility": { "languageSelector": "Language selector", "switchToLight": "Switch to light theme", "switchToDark": "Switch to dark theme", "openMenu": "Open navigation menu", "closeMenu": "Close navigation menu" },
   "nav": { "home": "Home", "about": "About", "portfolio": "Experience", "blog": "Blog", "contact": "Contact" },
   "home": {
     "title": "I'm Gerardo Medina Romero",
@@ -52,25 +53,22 @@
     "date": "2014 - 2018"
   },
   "dataportfolio": [
-    { "title": "Rakuten Ichiba - Social Gift", "description": "Led frontend development from concept to production and contributed to architecture and implementation for one of Japan's largest e-commerce platforms.", "link": "https://www.rakuten.co.jp/" },
-    { "title": "Rakuten Ichiba + Rakuma", "description": "Built an integration that lets customers resell purchased products directly from their purchase history.", "link": "https://fril.jp/" },
-    { "title": "AI Pull Request Reviewer", "description": "Developed an AI-powered reviewer that improved code quality and reduced manual review effort.", "link": "https://global.rakuten.com/corp/innovation/" },
+    { "title": "Rakuten", "description": "I build customer-facing experiences for Rakuten Ichiba, one of Japan's largest e-commerce platforms. My work includes leading the Social Gift frontend from concept to production, connecting Purchase History with Rakuma so customers can resell purchased products, and improving key purchase-history and authentication flows for millions of users.", "link": "https://www.rakuten.co.jp/" },
     { "title": "Microsoft Viva Engage", "description": "Delivered enterprise features, accessibility improvements, Latin American Spanish localization, and AI-powered duplicate-question detection.", "link": "https://www.microsoft.com/en-us/microsoft-viva/engage" },
-    { "title": "DEV.F Virtual Campus", "description": "Designed the platform and led its frontend architecture, giving students one place for courses, coding exercises, and job opportunities.", "link": "https://devf.la/" },
-    { "title": "Engineering Education", "description": "Taught MERN Stack bootcamps and helped hundreds of students in Mexico, Costa Rica, and Colombia move into software careers.", "link": "https://devf.la/" }
+    { "title": "DEV.F", "description": "Designed and built the Virtual Campus from the ground up, led its frontend architecture, and taught MERN Stack bootcamps that helped hundreds of students across Mexico, Costa Rica, and Colombia begin careers in software.", "link": "https://devf.la/" }
   ],
   "contact": {
     "pageTitle": "Contact Me",
-    "getInTouch": "Get in touch",
     "email": "gerardomdnr@gmail.com",
-    "phone": "",
-    "description": "I'm based in Shinjuku, Tokyo. Reach out to discuss frontend and full-stack engineering, scalable product development, automation, or AI-enabled developer tooling.",
-    "namePlaceholder": "Name", "emailPlaceholder": "Email", "messagePlaceholder": "Message", "sendButton": "Send", "sending": "Sending...", "successMessage": "SUCCESS! Thank you for your message", "failMessage": "Failed to send!"
+    "emailLabel": "Email",
+    "eyebrow": "Have a project in mind?",
+    "invitation": "Let’s build something meaningful together.",
+    "description": "I’m always happy to discuss thoughtful products, ambitious engineering challenges, or opportunities to create a great experience for users.",
+    "emailCta": "Send me an email"
   },
   "blog": { "pageTitle": "Blog", "description": "Articles about software engineering, React, TypeScript, frontend architecture, accessibility, automation, and AI.", "noPosts": "No posts yet. Check back soon!", "readMore": "Read more", "backToBlog": "Back to Blog" },
-  "portfolio": { "pageTitle": "Experience Highlights", "viewProject": "Learn more", "reposTitle": "GitHub repositories", "prsTitle": "Accepted Pull Requests", "viewRepo": "View Repository", "viewPR": "View Pull Request", "noPRs": "No accepted pull requests found.", "noDescription": "No description available" },
+  "portfolio": { "pageTitle": "Selected Work", "intro": "A selection of products and platforms where I contributed to meaningful customer and engineering outcomes.", "viewProject": "Visit product", "githubTitle": "Open-source profile", "githubDescription": "A snapshot of my public work, experiments, and ongoing technical interests.", "viewGithub": "View GitHub profile", "publicRepos": "Public repos", "followers": "Followers", "following": "Following", "reposTitle": "Recent repositories", "reposDescription": "A selection of recently updated public repositories.", "loadingRepos": "Loading repositories…", "reposUnavailable": "Repositories are temporarily unavailable.", "noRepos": "No public repositories to display.", "viewRepo": "View repository", "noDescription": "No description available" },
   "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
   "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Connect" },
-  "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
   "meta": { "title": "Gerardo Medina Romero | Senior Frontend Engineer", "description": "Senior Frontend Engineer in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI." }
 }

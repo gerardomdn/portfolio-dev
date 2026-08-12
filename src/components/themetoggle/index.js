@@ -1,10 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import { FiSun, FiMoon } from "react-icons/fi";
+import { useTranslations } from "next-intl";
 import "./style.css";
 
 const Themetoggle = () => {
   const [theme, setTheme] = useState("dark");
+  const t = useTranslations("accessibility");
 
   useEffect(() => {
     const saved = localStorage.getItem("theme") || "dark";
@@ -23,7 +25,7 @@ const Themetoggle = () => {
       <button
         className={`theme-switch__toggle ${theme === "light" ? "theme-switch--light" : ""}`}
         onClick={toggle}
-        aria-label="Toggle theme"
+        aria-label={theme === "dark" ? t("switchToLight") : t("switchToDark")}
       >
         <div className="theme-switch__circle">
           {theme === "dark" ? <FiMoon /> : <FiSun />}

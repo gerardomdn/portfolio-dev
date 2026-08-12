@@ -29,7 +29,7 @@ export default async function LocaleLayout({ children, params }) {
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
+    <html lang={locale} data-scroll-behavior="smooth">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Marcellus&display=swap" rel="stylesheet" />
       </head>

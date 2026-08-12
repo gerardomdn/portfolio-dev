@@ -1,5 +1,6 @@
 {
   "logotext": "gerardomdn",
+  "accessibility": { "languageSelector": "言語選択", "switchToLight": "ライトテーマに切り替える", "switchToDark": "ダークテーマに切り替える", "openMenu": "ナビゲーションメニューを開く", "closeMenu": "ナビゲーションメニューを閉じる" },
   "nav": { "home": "ホーム", "about": "プロフィール", "portfolio": "経歴", "blog": "ブログ", "contact": "お問い合わせ" },
   "home": {
     "title": "Gerardo Medina Romeroです",
@@ -34,22 +35,16 @@
   ],
   "education": { "degree": "コンピューター工学学士", "school": "メキシコ国立工科大学（IPN）", "location": "メキシコ・メキシコシティ", "date": "2014年 - 2018年" },
   "dataportfolio": [
-    { "title": "楽天市場 - ソーシャルギフト", "description": "日本最大級のECプラットフォームにおいて、構想から本番リリースまでフロントエンド開発を主導し、アーキテクチャと実装にも貢献しました。", "link": "https://www.rakuten.co.jp/" },
-    { "title": "楽天市場 × 楽天ラクマ", "description": "購入履歴から購入商品を直接出品できる連携機能を開発しました。", "link": "https://fril.jp/" },
-    { "title": "AIプルリクエストレビュー", "description": "AIを活用したレビューツールを開発し、コード品質の向上と手動レビュー工数の削減を実現しました。", "link": "https://global.rakuten.com/corp/innovation/" },
+    { "title": "楽天", "description": "日本最大級のECプラットフォームである楽天市場の顧客向け体験を開発しています。ソーシャルギフトのフロントエンドを構想から本番リリースまで主導したほか、購入履歴と楽天ラクマを連携して再出品を容易にし、数百万人が利用する認証および購入履歴の主要フローを改善しました。", "link": "https://www.rakuten.co.jp/" },
     { "title": "Microsoft Viva Engage", "description": "エンタープライズ機能、アクセシビリティ改善、ラテンアメリカ向けスペイン語ローカライゼーション、AIによる重複質問検出機能を提供しました。", "link": "https://www.microsoft.com/ja-jp/microsoft-viva/engage" },
-    { "title": "DEV.F バーチャルキャンパス", "description": "コース、コーディング演習、求人情報を一か所に集約するプラットフォームを設計し、フロントエンドアーキテクチャを主導しました。", "link": "https://devf.la/" },
-    { "title": "エンジニア教育", "description": "MERN Stackブートキャンプで講師を務め、メキシコ、コスタリカ、コロンビアの数百人の受講生がソフトウェア分野でキャリアを始める支援をしました。", "link": "https://devf.la/" }
+    { "title": "DEV.F", "description": "バーチャルキャンパスをゼロから設計・開発してフロントエンドアーキテクチャを主導し、MERN Stackブートキャンプを通じてメキシコ、コスタリカ、コロンビアの数百人がソフトウェア分野でキャリアを始める支援をしました。", "link": "https://devf.la/" }
   ],
   "contact": {
-    "pageTitle": "お問い合わせ", "getInTouch": "お気軽にご連絡ください", "email": "gerardomdnr@gmail.com", "phone": "",
-    "description": "東京・新宿を拠点にしています。フロントエンド／フルスタック開発、スケーラブルなプロダクト開発、自動化、AIを活用した開発者向けツールについて、お気軽にご相談ください。",
-    "namePlaceholder": "お名前", "emailPlaceholder": "メールアドレス", "messagePlaceholder": "メッセージ", "sendButton": "送信", "sending": "送信中…", "successMessage": "送信しました。お問い合わせありがとうございます。", "failMessage": "送信できませんでした。"
+    "pageTitle": "お問い合わせ", "email": "gerardomdnr@gmail.com", "emailLabel": "メールアドレス", "eyebrow": "プロジェクトのご相談", "invitation": "一緒に価値あるものをつくりましょう。", "description": "意義のあるプロダクト、挑戦的なエンジニアリング課題、優れたユーザー体験を生み出す機会について、ぜひお気軽にご相談ください。", "emailCta": "メールを送る"
   },
   "blog": { "pageTitle": "ブログ", "description": "ソフトウェアエンジニアリング、React、TypeScript、フロントエンドアーキテクチャ、アクセシビリティ、自動化、AIに関する記事です。", "noPosts": "記事はまだありません。近日公開予定です。", "readMore": "続きを読む", "backToBlog": "ブログに戻る" },
-  "portfolio": { "pageTitle": "主な実績", "viewProject": "詳しく見る", "reposTitle": "GitHubリポジトリ", "prsTitle": "マージされたプルリクエスト", "viewRepo": "リポジトリを見る", "viewPR": "プルリクエストを見る", "noPRs": "マージされたプルリクエストは見つかりませんでした。", "noDescription": "説明はありません" },
+  "portfolio": { "pageTitle": "主な実績", "intro": "ユーザーと開発チームに有意義な成果をもたらしたプロダクトとプラットフォームの一部をご紹介します。", "viewProject": "プロダクトを見る", "githubTitle": "オープンソースプロフィール", "githubDescription": "公開中の成果物、実験、現在の技術的関心をご紹介します。", "viewGithub": "GitHubプロフィールを見る", "publicRepos": "公開リポジトリ", "followers": "フォロワー", "following": "フォロー中", "reposTitle": "最近のリポジトリ", "reposDescription": "最近更新された公開リポジトリの一部です。", "loadingRepos": "リポジトリを読み込んでいます…", "reposUnavailable": "リポジトリは一時的に利用できません。", "noRepos": "表示できる公開リポジトリはありません。", "viewRepo": "リポジトリを見る", "noDescription": "説明はありません" },
   "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
   "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "つながる" },
-  "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
   "meta": { "title": "Gerardo Medina Romero | シニアフロントエンドエンジニア", "description": "東京を拠点に、React、TypeScript、フロントエンドアーキテクチャ、Node.js、自動化、AIの分野で8年以上の経験を持つシニアフロントエンドエンジニアです。" }
 }

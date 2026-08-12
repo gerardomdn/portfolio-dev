@@ -4,49 +4,41 @@ import { useTranslations } from "next-intl";
 import "./style.css";
 
 export const GithubContributions = () => {
-  const [pullRequests, setPullRequests] = useState([]);
+  const [profile, setProfile] = useState(null);
   const username = "gerardomdn";
   const t = useTranslations("portfolio");
 
   useEffect(() => {
-    const fetchPullRequests = async () => {
+    const fetchProfile = async () => {
       try {
-        const response = await fetch(
-          `https://api.github.com/search/issues?q=author:${username}+type:pr+is:merged+created:>=2024-01-01`,
-        );
+        const response = await fetch(`https://api.github.com/users/${username}`);
+        if (!response.ok) return;
         const data = await response.json();
-        setPullRequests(Array.isArray(data.items) ? data.items : []);
+        setProfile(data);
       } catch (error) {
-        console.error("Error fetching pull requests:", error);
+        console.error("Error fetching GitHub profile:", error);
       }
     };
-    fetchPullRequests();
+    fetchProfile();
   }, [username]);
 
-  return (
-    <div className="github-contributions-container mt-5">
-      <h2>{t("prsTitle")}</h2>
+  if (!profile) return null;
 
-      <div className="github-contributions mt-3">
-        {pullRequests.length > 0 ? (
-          pullRequests.map((pr) => (
-            <div key={pr.id} className="pr-item">
-              <h3>{pr.title}</h3>
-              <p>
-                Repository:{" "}
-                <span>
-                  {pr.repository_url.split("/").pop()}
-                </span>
-              </p>
-              <a href={pr.html_url} target="_blank" rel="noopener noreferrer">
-                {t("viewPR")}
-              </a>
-            </div>
-          ))
-        ) : (
-          <p>{t("noPRs")}</p>
-        )}
+  return (
+    <section className="github-profile mt-5" aria-labelledby="github-profile-title">
+      <div className="github-profile-copy">
+        <span className="github-eyebrow">GitHub</span>
+        <h2 id="github-profile-title">{t("githubTitle")}</h2>
+        <p>{t("githubDescription")}</p>
+        <a href={profile.html_url} target="_blank" rel="noopener noreferrer">
+          {t("viewGithub")} <span aria-hidden="true">↗</span>
+        </a>
       </div>
-    </div>
+      <dl className="github-stats">
+        <div><dt>{profile.public_repos}</dt><dd>{t("publicRepos")}</dd></div>
+        <div><dt>{profile.followers}</dt><dd>{t("followers")}</dd></div>
+        <div><dt>{profile.following}</dt><dd>{t("following")}</dd></div>
+      </dl>
+    </section>
   );
 };

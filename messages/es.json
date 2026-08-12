@@ -1,5 +1,6 @@
 {
   "logotext": "gerardomdn",
+  "accessibility": { "languageSelector": "Selector de idioma", "switchToLight": "Cambiar al tema claro", "switchToDark": "Cambiar al tema oscuro", "openMenu": "Abrir menú de navegación", "closeMenu": "Cerrar menú de navegación" },
   "nav": { "home": "Inicio", "about": "Acerca de", "portfolio": "Experiencia", "blog": "Blog", "contact": "Contacto" },
   "home": {
     "title": "Soy Gerardo Medina Romero",
@@ -34,22 +35,16 @@
   ],
   "education": { "degree": "Licenciatura en Ingeniería en Computación", "school": "Instituto Politécnico Nacional (IPN)", "location": "Ciudad de México, México", "date": "2014 - 2018" },
   "dataportfolio": [
-    { "title": "Rakuten Ichiba - Social Gift", "description": "Lideré el desarrollo frontend desde el concepto hasta producción y contribuí a la arquitectura e implementación para una de las mayores plataformas de comercio electrónico de Japón.", "link": "https://www.rakuten.co.jp/" },
-    { "title": "Rakuten Ichiba + Rakuma", "description": "Construí una integración que permite revender productos comprados directamente desde el historial de compras.", "link": "https://fril.jp/" },
-    { "title": "Revisor de Pull Requests con IA", "description": "Desarrollé un revisor con IA que mejoró la calidad del código y redujo el esfuerzo de revisión manual.", "link": "https://global.rakuten.com/corp/innovation/" },
+    { "title": "Rakuten", "description": "Desarrollo experiencias para clientes de Rakuten Ichiba, una de las mayores plataformas de comercio electrónico de Japón. Mi trabajo incluye liderar el frontend de Social Gift desde el concepto hasta producción, conectar el historial de compras con Rakuma para facilitar la reventa y mejorar flujos clave de autenticación e historial de compras para millones de usuarios.", "link": "https://www.rakuten.co.jp/" },
     { "title": "Microsoft Viva Engage", "description": "Entregué funciones empresariales, mejoras de accesibilidad, localización para Latinoamérica y detección de preguntas duplicadas mediante IA.", "link": "https://www.microsoft.com/es-es/microsoft-viva/engage" },
-    { "title": "Campus Virtual DEV.F", "description": "Diseñé la plataforma y lideré su arquitectura frontend para reunir cursos, ejercicios de programación y oportunidades laborales.", "link": "https://devf.la/" },
-    { "title": "Educación en Ingeniería", "description": "Impartí bootcamps MERN Stack y ayudé a cientos de estudiantes en México, Costa Rica y Colombia a iniciar carreras en software.", "link": "https://devf.la/" }
+    { "title": "DEV.F", "description": "Diseñé y construí el Campus Virtual desde cero, lideré su arquitectura frontend e impartí bootcamps MERN Stack que ayudaron a cientos de estudiantes de México, Costa Rica y Colombia a iniciar carreras en software.", "link": "https://devf.la/" }
   ],
   "contact": {
-    "pageTitle": "Contacto", "getInTouch": "Ponte en contacto", "email": "gerardomdnr@gmail.com", "phone": "",
-    "description": "Vivo en Shinjuku, Tokio. Escríbeme para conversar sobre ingeniería frontend y full-stack, desarrollo de productos escalables, automatización o herramientas de desarrollo con IA.",
-    "namePlaceholder": "Nombre", "emailPlaceholder": "Correo electrónico", "messagePlaceholder": "Mensaje", "sendButton": "Enviar", "sending": "Enviando...", "successMessage": "¡ÉXITO! Gracias por tu mensaje", "failMessage": "Error al enviar."
+    "pageTitle": "Contacto", "email": "gerardomdnr@gmail.com", "emailLabel": "Correo electrónico", "eyebrow": "¿Tienes un proyecto en mente?", "invitation": "Construyamos algo valioso juntos.", "description": "Siempre estoy abierto a conversar sobre productos con propósito, retos de ingeniería ambiciosos u oportunidades para crear grandes experiencias para los usuarios.", "emailCta": "Envíame un correo"
   },
   "blog": { "pageTitle": "Blog", "description": "Artículos sobre ingeniería de software, React, TypeScript, arquitectura frontend, accesibilidad, automatización e IA.", "noPosts": "Aún no hay publicaciones. Vuelve pronto.", "readMore": "Leer más", "backToBlog": "Volver al Blog" },
-  "portfolio": { "pageTitle": "Logros Profesionales", "viewProject": "Más información", "reposTitle": "Repositorios de GitHub", "prsTitle": "Pull Requests Aceptados", "viewRepo": "Ver Repositorio", "viewPR": "Ver Pull Request", "noPRs": "No se encontraron pull requests aceptados.", "noDescription": "Sin descripción disponible" },
+  "portfolio": { "pageTitle": "Trabajo destacado", "intro": "Una selección de productos y plataformas donde contribuí a generar resultados relevantes para usuarios y equipos de ingeniería.", "viewProject": "Visitar producto", "githubTitle": "Perfil open source", "githubDescription": "Una muestra de mi trabajo público, experimentos e intereses técnicos actuales.", "viewGithub": "Ver perfil de GitHub", "publicRepos": "Repositorios", "followers": "Seguidores", "following": "Siguiendo", "reposTitle": "Repositorios recientes", "reposDescription": "Una selección de repositorios públicos actualizados recientemente.", "loadingRepos": "Cargando repositorios…", "reposUnavailable": "Los repositorios no están disponibles temporalmente.", "noRepos": "No hay repositorios públicos para mostrar.", "viewRepo": "Ver repositorio", "noDescription": "Sin descripción disponible" },
   "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
   "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Conecta" },
-  "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
   "meta": { "title": "Gerardo Medina Romero | Ingeniero Frontend Senior", "description": "Ingeniero Frontend Senior en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA." }
 }

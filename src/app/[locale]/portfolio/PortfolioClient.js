@@ -15,17 +15,19 @@ export default function PortfolioClient() {
         <Col lg="8">
           <h1 className="display-4 mb-4">{t("portfolio.pageTitle")}</h1>
           <hr className="t_border my-4 ml-0 text-left" />
+          <p className="portfolio-intro">{t("portfolio.intro")}</p>
         </Col>
       </Row>
       <div className="mb-5 po_items_ho">
-        {dataportfolio.map((data, i) => (
-          <div key={i} className="po_item">
+        {dataportfolio.map((data, index) => (
+          <article key={data.title} className="po_item">
+            <span className="achievement-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
             <div className="content">
               <h2>{data.title}</h2>
               <p>{data.description}</p>
-              <a href={data.link} target="_blank" rel="noopener noreferrer">{t("portfolio.viewProject")}</a>
+              <a href={data.link} target="_blank" rel="noopener noreferrer">{t("portfolio.viewProject")} <span aria-hidden="true">↗</span></a>
             </div>
-          </div>
+          </article>
         ))}
       </div>
       <GithubContributions />

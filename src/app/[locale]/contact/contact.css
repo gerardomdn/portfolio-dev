@@ -1,45 +1,76 @@
-.contact__form .form-control {
-    padding: 1.375rem .75rem;
-    line-height: 1.5;
-    color: var(--text-color);
-    background-color: var(--bg-color);
-    border-radius: 0 !important;
-    border: 1px solid var(--secondary-color);
+.contact-card {
+    position: relative;
+    padding: clamp(2rem, 7vw, 5rem);
+    border: 1px solid var(--secondary);
+    background: linear-gradient(145deg, color-mix(in srgb, var(--secondary-color) 12%, var(--bg-color)), var(--bg-color));
+    overflow: hidden;
 }
 
-.contact__form input.form-control {
-    margin-bottom: 2em;
-    height: calc(2.5em + .75rem + 2px);
-}
-
-button.btn.ac_btn:hover {
+.contact-card::after {
+    content: "@";
+    position: absolute;
+    right: clamp(1rem, 4vw, 3rem);
+    top: 50%;
+    transform: translateY(-50%);
     color: var(--secondary-color);
+    font-family: Marcellus, serif;
+    font-size: clamp(5rem, 14vw, 11rem);
+    line-height: 1;
+    opacity: .08;
+    pointer-events: none;
 }
 
-.loading-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    z-index: 999999999;
-    background: var(--text-color);
-    transform: translateX(100%);
-    animation: shift-rightwards 1s ease-in-out infinite;
-    animation-delay: .3s;
+.contact-label {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
 }
 
-@keyframes shift-rightwards {
-    0% {
-        transform: translateX(-100%);
-    }
-    40% {
-        transform: translateX(0%);
-    }
-    60% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
+.contact-card h2 {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin-bottom: 1rem;
+    font-size: clamp(1.8rem, 4vw, 3.25rem);
+    line-height: 1.15;
+}
+
+.contact-card p {
+    position: relative;
+    z-index: 1;
+    max-width: 590px;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    opacity: .72;
+}
+
+.contact-email {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    color: var(--text-color);
+    font-size: .95rem;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: .35rem;
+}
+
+.contact-email small {
+    display: block;
+    margin-top: .45rem;
+    font-size: .78rem;
+    font-weight: 400;
+    letter-spacing: .02em;
+    opacity: .65;
+}
+
+.contact-email:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
 }

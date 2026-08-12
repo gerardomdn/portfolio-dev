@@ -1,71 +1,14 @@
 /* src/components/GithubContributions.css */
-.github-contributions-container{
-  margin: 0 auto;
-  text-align: center;
-}
-.github-contributions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-.pr-item {
-  width: 28%;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.pr-item h3 {
-  margin: 0 0 0.5rem;
-  color: #333;
-  font-size: 15px;
-  font-weight: bold;
-}
-.pr-item p{
-  margin: 20px 0 20px 0;
-  color: var( --text-color-4);
-  font-weight: 500;
-}
-.pr-item span{
-  color:  var(--text-color-4);
-  font-weight: 100;
-}
-.pr-item a {
-  color:  var(--text-color);
-  text-decoration: none;
-  background: var(--bg-color);
-  border: solid 1px var(--text-color);
-  padding: 4px 8px;
-  text-align: center;
-  font-size: 1rem;
-}
-
-.pr-item a:hover {
-  text-decoration: underline;
-}
+.github-profile { display: grid; grid-template-columns: 1.3fr 1fr; gap: 3rem; align-items: end; padding: 2.5rem; border: 1px solid var(--secondary); }
+.github-eyebrow { color: var(--secondary-color); font-size: .75rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.github-profile h2 { margin: .65rem 0 1rem; }
+.github-profile-copy p { max-width: 560px; opacity: .78; line-height: 1.7; }
+.github-profile-copy a { display: inline-block; margin-top: .5rem; border-bottom: 1px solid currentColor; font-weight: 600; }
+.github-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 0; }
+.github-stats div { border-left: 1px solid var(--secondary-color); padding-left: 1rem; }
+.github-stats dt { font-family: Marcellus, serif; font-size: 2rem; font-weight: 400; }
+.github-stats dd { margin: 0; font-size: .75rem; opacity: .65; text-transform: uppercase; letter-spacing: .08em; }
 
 @media screen and (max-width: 768px) {
-  .github-contributions {
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .pr-item {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  .github-profile { grid-template-columns: 1fr; gap: 2rem; padding: 1.5rem; }
 }

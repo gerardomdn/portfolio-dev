@@ -1,44 +1,52 @@
 /* src/components/GithubRepos.css */
 .github-repos-container{
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 .github-repos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .repo-item {
-  width: 28%;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border: 1px solid var(--secondary);
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  transition: transform .2s ease, border-color .2s ease;
 }
+.repo-item:hover { transform: translateY(-4px); border-color: var(--secondary-color); }
 
 .repo-item h3 {
   margin: 0 0 0.5rem;
-  color: #333;
-  font-size: 15px;
+  color: var(--text-color);
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .repo-item p{
   margin: 0 0 0.5rem;
-  color: #222;
+  color: var(--text-color);
+  opacity: .75;
+  line-height: 1.55;
 }
+.github-repos-intro { opacity: .7; max-width: 600px; }
+.github-repos-status { margin: 2rem 0; opacity: .65; font-style: italic; }
+.repo-meta { display: flex; gap: 1rem; margin: auto 0 1rem; font-size: .75rem; opacity: .65; }
 
 .repo-item a {
   color: var(--text-color);
   text-decoration: none;
   background: var(--bg-color);
   border: solid 1px var(--text-color);
-  padding: 4px 8px;
-  text-align: center;
-  font-size: 1rem;
+  align-self: flex-start;
+  border: 0;
+  border-bottom: 1px solid currentColor;
+  padding: 0 0 3px;
+  font-size: .85rem;
 }
 
 .repo-item a:hover {
@@ -46,12 +54,5 @@
 }
 
 @media screen and (max-width: 768px) {
-  .github-repos {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  .repo-item {
-    width: 100%;
-  }
+  .github-repos { grid-template-columns: 1fr; }
 }
