@@ -1,0 +1,55 @@
+{
+  "logotext": "gerardomdn",
+  "nav": { "home": "Inicio", "about": "Acerca de", "portfolio": "Experiencia", "blog": "Blog", "contact": "Contacto" },
+  "home": {
+    "title": "Soy Gerardo Medina Romero",
+    "animated": { "first": "Ingeniero Fullstack", "second": "Especialista en React y TypeScript", "third": "Construyo software a escala" },
+    "description": "Ingeniero Fullstack con más de 8 años de experiencia creando aplicaciones web escalables utilizadas por millones de personas. Me especializo en React, TypeScript, arquitectura frontend moderna y desarrollo full-stack con Node.js.",
+    "yourImgUrl": "", "btnPortfolio": "Ver Experiencia", "btnContact": "Contáctame"
+  },
+  "about": {
+    "pageTitle": "Acerca de mí", "title": "Perfil",
+    "aboutme": "Impulso mejoras de ingeniería mediante automatización e IA mientras colaboro con equipos globales y multidisciplinarios en Rakuten y Microsoft. Me enfoco en crear software accesible y mantenible que genere un impacto de negocio medible.",
+    "workTimelineTitle": "Experiencia", "skillsTitle": "Habilidades Técnicas", "servicesTitle": "Lo que hago", "educationTitle": "Educación"
+  },
+  "worktimeline": [
+    { "jobtitle": "Ingeniero de Aplicaciones", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "date": "2024 - Presente" },
+    { "jobtitle": "Ingeniero de Software", "where": "Microsoft", "url": "https://www.microsoft.com/", "date": "2022 - 2024" },
+    { "jobtitle": "Ingeniero UI", "where": "Globant", "url": "https://www.globant.com/", "date": "2021 - 2022" },
+    { "jobtitle": "Ingeniero de Software", "where": "Softtek", "url": "https://www.softtek.com/", "date": "2020 - 2021" },
+    { "jobtitle": "Ingeniero de Software e Instructor", "where": "DEV.F", "url": "https://devf.la/", "date": "2019 - 2020" },
+    { "jobtitle": "Ingeniero Frontend", "where": "Koomkin", "url": "https://www.koomkin.com/", "date": "2017 - 2019" }
+  ],
+  "skills": [
+    { "name": "React", "value": 95 }, { "name": "TypeScript", "value": 95 }, { "name": "JavaScript", "value": 95 },
+    { "name": "Next.js", "value": 90 }, { "name": "Node.js y Express", "value": 85 }, { "name": "GraphQL", "value": 85 },
+    { "name": "Redux y Context API", "value": 90 }, { "name": "Jest", "value": 85 },
+    { "name": "Accesibilidad y Localización", "value": 90 }, { "name": "SQL, MySQL y MongoDB", "value": 80 },
+    { "name": "Azure, Google Cloud y Firebase", "value": 75 }, { "name": "Ingeniería asistida por IA", "value": 85 }
+  ],
+  "services": [
+    { "title": "Ingeniería Frontend Escalable", "description": "Diseño y desarrollo aplicaciones mantenibles con React y TypeScript, sistemas de componentes reutilizables y arquitecturas frontend para productos de escala empresarial." },
+    { "title": "Desarrollo de Producto Full-stack", "description": "Construyo experiencias para clientes de principio a fin con Next.js, Node.js, Express, GraphQL y bases de datos relacionales o documentales, colaborando con producto, diseño, backend y QA." },
+    { "title": "Automatización, IA y Calidad", "description": "Mejoro flujos de ingeniería mediante automatización e IA, con énfasis en pruebas, accesibilidad, localización, observabilidad, rendimiento y calidad de código." }
+  ],
+  "education": { "degree": "Licenciatura en Ingeniería en Computación", "school": "Instituto Politécnico Nacional (IPN)", "location": "Ciudad de México, México", "date": "2014 - 2018" },
+  "dataportfolio": [
+    { "title": "Rakuten Ichiba - Social Gift", "description": "Lideré el desarrollo frontend desde el concepto hasta producción y contribuí a la arquitectura e implementación para una de las mayores plataformas de comercio electrónico de Japón.", "link": "https://www.rakuten.co.jp/" },
+    { "title": "Rakuten Ichiba + Rakuma", "description": "Construí una integración que permite revender productos comprados directamente desde el historial de compras.", "link": "https://fril.jp/" },
+    { "title": "Revisor de Pull Requests con IA", "description": "Desarrollé un revisor con IA que mejoró la calidad del código y redujo el esfuerzo de revisión manual.", "link": "https://global.rakuten.com/corp/innovation/" },
+    { "title": "Microsoft Viva Engage", "description": "Entregué funciones empresariales, mejoras de accesibilidad, localización para Latinoamérica y detección de preguntas duplicadas mediante IA.", "link": "https://www.microsoft.com/es-es/microsoft-viva/engage" },
+    { "title": "Campus Virtual DEV.F", "description": "Diseñé la plataforma y lideré su arquitectura frontend para reunir cursos, ejercicios de programación y oportunidades laborales.", "link": "https://devf.la/" },
+    { "title": "Educación en Ingeniería", "description": "Impartí bootcamps MERN Stack y ayudé a cientos de estudiantes en México, Costa Rica y Colombia a iniciar carreras en software.", "link": "https://devf.la/" }
+  ],
+  "contact": {
+    "pageTitle": "Contacto", "getInTouch": "Ponte en contacto", "email": "gerardomdnr@gmail.com", "phone": "",
+    "description": "Vivo en Shinjuku, Tokio. Escríbeme para conversar sobre ingeniería frontend y full-stack, desarrollo de productos escalables, automatización o herramientas de desarrollo con IA.",
+    "namePlaceholder": "Nombre", "emailPlaceholder": "Correo electrónico", "messagePlaceholder": "Mensaje", "sendButton": "Enviar", "sending": "Enviando...", "successMessage": "¡ÉXITO! Gracias por tu mensaje", "failMessage": "Error al enviar."
+  },
+  "blog": { "pageTitle": "Blog", "description": "Artículos sobre ingeniería de software, React, TypeScript, arquitectura frontend, accesibilidad, automatización e IA.", "noPosts": "Aún no hay publicaciones. Vuelve pronto.", "readMore": "Leer más", "backToBlog": "Volver al Blog" },
+  "portfolio": { "pageTitle": "Logros Profesionales", "viewProject": "Más información", "reposTitle": "Repositorios de GitHub", "prsTitle": "Pull Requests Aceptados", "viewRepo": "Ver Repositorio", "viewPR": "Ver Pull Request", "noPRs": "No se encontraron pull requests aceptados.", "noDescription": "Sin descripción disponible" },
+  "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
+  "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Conecta" },
+  "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
+  "meta": { "title": "Gerardo Medina Romero | Ingeniero Fullstack", "description": "Ingeniero Fullstack en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA." }
+}

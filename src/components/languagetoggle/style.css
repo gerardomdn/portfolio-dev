@@ -1,0 +1,33 @@
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  font-family: Marcellus;
+  font-size: 0.9rem;
+  font-weight: bold;
+  height: 50px;
+  z-index: 1000;
+}
+
+.lang-toggle button {
+  background: none;
+  border: none;
+  color: var(--text-color-2);
+  opacity: 0.4;
+  cursor: pointer;
+  padding: 2px 4px;
+  font-family: Marcellus;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.lang-toggle button.active {
+  opacity: 1;
+}
+
+.lang-toggle span {
+  color: var(--text-color-2);
+  opacity: 0.4;
+}

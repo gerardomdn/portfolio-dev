@@ -1,0 +1,71 @@
+/* src/components/GithubContributions.css */
+.github-contributions-container{
+  margin: 0 auto;
+  text-align: center;
+}
+.github-contributions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pr-item {
+  width: 28%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pr-item h3 {
+  margin: 0 0 0.5rem;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+.pr-item p{
+  margin: 20px 0 20px 0;
+  color: var( --text-color-4);
+  font-weight: 500;
+}
+.pr-item span{
+  color:  var(--text-color-4);
+  font-weight: 100;
+}
+.pr-item a {
+  color:  var(--text-color);
+  text-decoration: none;
+  background: var(--bg-color);
+  border: solid 1px var(--text-color);
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.pr-item a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .github-contributions {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .pr-item {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
