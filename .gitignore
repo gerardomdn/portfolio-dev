@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/.next
+/out
+
+# misc
+.DS_Store
+# Local credentials; only sanitized example files should be committed.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*.json
+service-account*.json
+id_rsa
+id_ed25519
+*.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local package-manager state
+/.yarn/

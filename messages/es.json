@@ -1,0 +1,326 @@
+{
+  "logotext": "gerardomdn",
+  "accessibility": {
+    "navigation": "Navegación principal",
+    "languageSelector": "Selector de idioma",
+    "switchToLight": "Cambiar al tema claro",
+    "switchToDark": "Cambiar al tema oscuro",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "portfolio": "Experiencia",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "home": {
+    "design": {
+      "location": "En Tokio · Desde México",
+      "artLabel": "Monograma de Gerardo con órbitas que conectan México y Japón",
+      "artCaption": "Distintos lugares. Una perspectiva.",
+      "architecture": "ARQUITECTURA FRONTEND",
+      "accessibility": "ACCESIBILIDAD",
+      "chapter": "Trabajo en el mundo real",
+      "story": "Mi trayectoria"
+    },
+    "animated": {
+      "first": "Ingeniero Frontend Senior"
+    },
+    "description": "Ingeniero Frontend Senior con más de 8 años de experiencia creando aplicaciones web escalables para productos globales utilizados por millones de personas. Me especializo en React, TypeScript, arquitectura frontend y desarrollo full-stack con Node.js.",
+    "btnPortfolio": "Ver Experiencia",
+    "btnContact": "Contáctame"
+  },
+  "about": {
+    "pageTitle": "Acerca de mí",
+    "title": "Perfil",
+    "aboutme": "Impulso mejoras de ingeniería mediante automatización e IA mientras colaboro con equipos globales y multidisciplinarios en Rakuten y Microsoft. Me enfoco en crear software accesible y mantenible que genere un impacto de negocio medible.",
+    "workTimelineTitle": "Experiencia",
+    "skillsTitle": "Habilidades Técnicas",
+    "servicesTitle": "Lo que hago",
+    "educationTitle": "Educación",
+    "languagesTitle": "Idiomas y ubicación",
+    "technologiesLabel": "Tecnologías"
+  },
+  "worktimeline": [
+    {
+      "jobtitle": "Ingeniero de Aplicaciones",
+      "where": "Rakuten",
+      "url": "https://global.rakuten.com/corp/",
+      "location": "Tokio, Japón",
+      "date": "2024 - Presente",
+      "highlights": [
+        "Desarrollo experiencias web para clientes de Rakuten Ichiba con React, TypeScript y Node.js.",
+        "Mejoro la usabilidad, accesibilidad, localización y rendimiento frontend en escritorio y móvil.",
+        "Creo componentes de UI reutilizables y colaboro con equipos de producto, diseño e ingeniería.",
+        "Contribuyo al desarrollo, las pruebas, los lanzamientos y el soporte continuo del producto."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Redux",
+        "REST APIs",
+        "Jest",
+        "Docker"
+      ]
+    },
+    {
+      "jobtitle": "Ingeniero de Software",
+      "where": "Microsoft",
+      "url": "https://www.microsoft.com/",
+      "location": "Ciudad de México, México",
+      "date": "2022 - 2024",
+      "highlights": [
+        "Entregué funciones para Microsoft Viva Engage dentro del ecosistema Microsoft 365.",
+        "Mejoré la experiencia con lectores de pantalla y alto contraste e incorporé español latinoamericano.",
+        "Contribuí a la transición de Yammer a Viva Engage y a la detección de preguntas duplicadas mediante IA.",
+        "Colaboré en experiencias integradas con Teams, Outlook, SharePoint y OneDrive.",
+        "Amplié las reacciones e implementé el nuevo sistema de emojis de Microsoft."
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Styled Components",
+        "Redux",
+        "Context API",
+        "GraphQL",
+        "Jest",
+        "Azure DevOps",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Ingeniero UI",
+      "where": "Globant",
+      "url": "https://www.globant.com/",
+      "location": "México",
+      "date": "2021 - 2022",
+      "highlights": [
+        "Desarrollé funciones frontend y componentes reutilizables para una plataforma empresarial de reclutamiento.",
+        "Mejoré la mantenibilidad mediante componentes reutilizables e integraciones con APIs."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Ingeniero de Software",
+      "where": "Softtek",
+      "url": "https://www.softtek.com/",
+      "location": "México",
+      "date": "2020 - 2021",
+      "highlights": [
+        "Construí funciones frontend y backend para flujos empresariales de evaluación de candidatos.",
+        "Construí funciones frontend y backend junto con equipos de ingeniería distribuidos."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Ingeniero de Software e Instructor",
+      "where": "DEV.F",
+      "url": "https://devf.la/",
+      "location": "México",
+      "date": "2019 - 2020",
+      "highlights": [
+        "Diseñé y construí el Campus Virtual para centralizar cursos, ejercicios de programación y oportunidades laborales, liderando la arquitectura frontend y la selección de tecnologías.",
+        "Impartí bootcamps MERN Stack y orienté a cientos de estudiantes de México, Costa Rica y Colombia."
+      ],
+      "technologies": [
+        "React",
+        "Vue",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GraphQL",
+        "Google Cloud",
+        "JavaScript",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Ingeniero Frontend",
+      "where": "Koomkin",
+      "url": "https://www.koomkin.com/",
+      "location": "México",
+      "date": "2017 - 2019",
+      "highlights": [
+        "Construí desde cero la plataforma web principal de la empresa.",
+        "Trabajé directamente con los fundadores para diseñar y lanzar nuevas funciones para clientes."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "Firebase",
+        "MySQL",
+        "Sass"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Redux",
+        "Angular",
+        "Vue",
+        "Sass"
+      ]
+    },
+    {
+      "category": "Backend y APIs",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "GraphQL",
+        "SQL",
+        "MongoDB",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "Pruebas y calidad",
+      "items": [
+        "Jest",
+        "Accesibilidad",
+        "Lectores de pantalla",
+        "Alto contraste",
+        "Revisión de código"
+      ]
+    },
+    {
+      "category": "Arquitectura y entrega",
+      "items": [
+        "Arquitectura frontend",
+        "Sistemas de diseño",
+        "Rendimiento",
+        "Autenticación",
+        "CI/CD",
+        "Grafana",
+        "Azure DevOps"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "Competencia profesional"
+    },
+    {
+      "name": "Japonés",
+      "level": "Competencia profesional elemental"
+    }
+  ],
+  "services": [
+    {
+      "title": "Ingeniería Frontend Escalable",
+      "description": "Diseño y desarrollo aplicaciones mantenibles con React y TypeScript, sistemas de componentes reutilizables y arquitecturas frontend para productos de escala empresarial."
+    },
+    {
+      "title": "Desarrollo de Producto Full-stack",
+      "description": "Construyo experiencias para clientes de principio a fin con Next.js, Node.js, Express, GraphQL y bases de datos relacionales o documentales, colaborando con producto, diseño, backend y QA."
+    },
+    {
+      "title": "Automatización, IA y Calidad",
+      "description": "Mejoro flujos de ingeniería mediante automatización e IA, con énfasis en pruebas, accesibilidad, localización, observabilidad, rendimiento y calidad de código."
+    }
+  ],
+  "education": {
+    "degree": "Licenciatura en Ingeniería en Computación",
+    "school": "Instituto Politécnico Nacional (IPN)",
+    "location": "Ciudad de México, México",
+    "date": "2014 - 2018"
+  },
+  "dataportfolio": [
+    {
+      "title": "Rakuten Ichiba",
+      "description": "Desarrollo experiencias web para clientes de Rakuten Ichiba con React, TypeScript y Node.js. Me enfoco en componentes reutilizables, usabilidad, localización y rendimiento frontend en escritorio y móvil, colaborando con equipos de producto, diseño e ingeniería.",
+      "link": "https://www.rakuten.co.jp/"
+    },
+    {
+      "title": "Microsoft Viva Engage",
+      "description": "Desarrollé funciones para Microsoft Viva Engage dentro de Microsoft 365, en colaboración con los equipos de Teams, Outlook, SharePoint y OneDrive. Mi trabajo incluyó la transición de Yammer a Viva Engage, detección de preguntas duplicadas con IA, mejoras para lectores de pantalla y alto contraste, localización al español latinoamericano y nuevas reacciones con el nuevo sistema de emojis de Microsoft.",
+      "link": "https://www.microsoft.com/es-es/microsoft-viva/engage"
+    },
+    {
+      "title": "DEV.F",
+      "description": "Diseñé y construí el Campus Virtual de DEV.F para reunir cursos, ejercicios de programación y oportunidades laborales en una sola plataforma, liderando la arquitectura frontend y la selección de tecnologías. Además del desarrollo de producto, impartí bootcamps MERN Stack y orienté a cientos de aspirantes a ingenieros en México, Costa Rica y Colombia.",
+      "link": "https://devf.la/"
+    }
+  ],
+  "contact": {
+    "pageTitle": "Contacto",
+    "email": "gerardomdnr@gmail.com",
+    "emailLabel": "Correo electrónico",
+    "eyebrow": "¿Tienes un proyecto en mente?",
+    "invitation": "Construyamos algo valioso juntos.",
+    "description": "Siempre estoy abierto a conversar sobre productos con propósito, retos de ingeniería ambiciosos u oportunidades para crear grandes experiencias para los usuarios.",
+    "emailCta": "Envíame un correo"
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "description": "Artículos sobre ingeniería de software, React, TypeScript, arquitectura frontend, accesibilidad, automatización e IA.",
+    "noPosts": "Aún no hay publicaciones. Vuelve pronto.",
+    "readMore": "Leer más",
+    "backToBlog": "Volver al Blog"
+  },
+  "portfolio": {
+    "pageTitle": "Trabajo destacado",
+    "intro": "Una selección de productos y plataformas donde contribuí a generar resultados relevantes para usuarios y equipos de ingeniería.",
+    "viewProject": "Visitar producto",
+    "githubTitle": "Perfil open source",
+    "githubDescription": "Una muestra de mi trabajo público, experimentos e intereses técnicos actuales.",
+    "viewGithub": "Ver perfil de GitHub",
+    "publicRepos": "Repositorios",
+    "followers": "Seguidores",
+    "following": "Siguiendo",
+    "reposTitle": "Repositorios destacados",
+    "reposDescription": "Una selección de mis proyectos públicos.",
+    "viewRepo": "Ver repositorio",
+    "noDescription": "Sin descripción disponible"
+  },
+  "social": {
+    "github": "https://github.com/gerardomdn",
+    "linkedin": "https://www.linkedin.com/in/gerardomdnr"
+  },
+  "footer": {
+    "copyright": "© Gerardo Medina Romero",
+    "followMe": "Conecta"
+  },
+  "meta": {
+    "title": "Gerardo Medina Romero | Ingeniero Frontend Senior",
+    "description": "Ingeniero Frontend Senior en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA."
+  }
+}

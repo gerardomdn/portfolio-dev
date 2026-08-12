@@ -1,0 +1,66 @@
+.sec_sp {
+    margin-bottom: calc(3rem + 5.128vw)
+}
+
+.table td,
+.table th {
+    color: var(--text-color);
+}
+
+.t_border {
+    border-color: var(--text-color) !important;
+}
+
+.service__title {
+    padding: 8px 0;
+    border-bottom: solid 2px var(--secondary-color);
+}
+
+.experience-card {
+    border-top: 1px solid var(--secondary);
+    padding: 1.25rem 0;
+}
+
+.experience-card:last-child {
+    border-bottom: 1px solid var(--secondary);
+}
+
+.experience-card summary {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 10.5rem 1.25rem;
+    align-items: baseline;
+    gap: .3rem 1rem;
+    list-style: none;
+}
+
+.experience-card summary::-webkit-details-marker { display: none; }
+.experience-card summary::after { content: "+"; grid-column: 3; grid-row: 1; text-align: center; font-size: 1.4rem; line-height: 1; }
+.experience-card[open] summary::after { content: "−"; }
+.experience-role { grid-column: 1; grid-row: 1; min-width: 0; }
+.experience-company { grid-column: 1; grid-row: 2; justify-self: start; font-size: .95rem; }
+.experience-date, .experience-location { grid-column: 2; color: var(--muted); font-size: .85rem; text-align: right; }
+.experience-date { grid-row: 1; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.experience-location { grid-row: 2; }
+.experience-card ul { margin: 1.25rem 0 1rem; padding-left: 1.2rem; }
+.experience-card li { margin-bottom: .65rem; }
+.experience-tech { font-size: .85rem; opacity: .8; margin-bottom: 0; }
+
+.skills-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.skill-group { border: 1px solid var(--secondary); padding: 1.25rem; }
+.skill-group h5 { margin-bottom: 1rem; }
+.skill-tags { display: flex; flex-wrap: wrap; gap: .5rem; }
+.skill-tags span { background: var(--secondary); padding: .35rem .65rem; font-size: .82rem; }
+
+.language-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.language-grid > div { border-left: 2px solid var(--secondary-color); padding-left: .9rem; display: flex; flex-direction: column; }
+.language-grid span { font-size: .88rem; opacity: .75; }
+
+@media (max-width: 767px) {
+    .experience-card summary { grid-template-columns: minmax(0, 1fr) 1.25rem; }
+    .experience-card summary::after { grid-column: 2; }
+    .experience-date, .experience-location { grid-column: 1; text-align: left; }
+    .experience-date { grid-row: 3; margin-top: .35rem; }
+    .experience-location { grid-row: 4; }
+    .skills-grid, .language-grid { grid-template-columns: 1fr; }
+}
