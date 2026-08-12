@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
     title: `${t("blog.pageTitle")} | ${t("meta.title")}`,
     description: t("blog.description"),
     alternates: {
-      languages: { en: "/en/blog", es: "/es/blog" },
+      languages: { en: "/en/blog", es: "/es/blog", ja: "/ja/blog" },
     },
   };
 }

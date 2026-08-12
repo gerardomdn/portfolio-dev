@@ -3,30 +3,30 @@
   "nav": { "home": "Inicio", "about": "Acerca de", "portfolio": "Experiencia", "blog": "Blog", "contact": "Contacto" },
   "home": {
     "title": "Soy Gerardo Medina Romero",
-    "animated": { "first": "Ingeniero Fullstack", "second": "Especialista en React y TypeScript", "third": "Construyo software a escala" },
-    "description": "Ingeniero Fullstack con más de 8 años de experiencia creando aplicaciones web escalables utilizadas por millones de personas. Me especializo en React, TypeScript, arquitectura frontend moderna y desarrollo full-stack con Node.js.",
+    "animated": { "first": "Ingeniero Frontend Senior", "second": "Especialista en React y TypeScript", "third": "Construyo software a escala" },
+    "description": "Ingeniero Frontend Senior con más de 8 años de experiencia creando aplicaciones web escalables para productos globales utilizados por millones de personas. Me especializo en React, TypeScript, arquitectura frontend y desarrollo full-stack con Node.js.",
     "yourImgUrl": "", "btnPortfolio": "Ver Experiencia", "btnContact": "Contáctame"
   },
   "about": {
     "pageTitle": "Acerca de mí", "title": "Perfil",
     "aboutme": "Impulso mejoras de ingeniería mediante automatización e IA mientras colaboro con equipos globales y multidisciplinarios en Rakuten y Microsoft. Me enfoco en crear software accesible y mantenible que genere un impacto de negocio medible.",
-    "workTimelineTitle": "Experiencia", "skillsTitle": "Habilidades Técnicas", "servicesTitle": "Lo que hago", "educationTitle": "Educación"
+    "workTimelineTitle": "Experiencia", "skillsTitle": "Habilidades Técnicas", "servicesTitle": "Lo que hago", "educationTitle": "Educación", "languagesTitle": "Idiomas y ubicación", "technologiesLabel": "Tecnologías", "workAuthorization": "Resido en Tokio y cuento con autorización vigente para trabajar en Japón."
   },
   "worktimeline": [
-    { "jobtitle": "Ingeniero de Aplicaciones", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "date": "2024 - Presente" },
-    { "jobtitle": "Ingeniero de Software", "where": "Microsoft", "url": "https://www.microsoft.com/", "date": "2022 - 2024" },
-    { "jobtitle": "Ingeniero UI", "where": "Globant", "url": "https://www.globant.com/", "date": "2021 - 2022" },
-    { "jobtitle": "Ingeniero de Software", "where": "Softtek", "url": "https://www.softtek.com/", "date": "2020 - 2021" },
-    { "jobtitle": "Ingeniero de Software e Instructor", "where": "DEV.F", "url": "https://devf.la/", "date": "2019 - 2020" },
-    { "jobtitle": "Ingeniero Frontend", "where": "Koomkin", "url": "https://www.koomkin.com/", "date": "2017 - 2019" }
+    { "jobtitle": "Ingeniero de Aplicaciones — Frontend", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "location": "Tokio, Japón", "date": "2024 - Presente", "highlights": ["Lideré el frontend de Social Gift desde el concepto hasta producción para una de las mayores plataformas de comercio electrónico de Japón.", "Construí la integración Rakuten Ichiba–Rakuma para revender productos desde el historial de compras.", "Mejoré la autenticación, el rendimiento del historial de compras y la confiabilidad durante eventos comerciales de alto tráfico.", "Desarrollé un revisor de pull requests con IA para elevar la calidad y reducir la revisión manual."], "technologies": ["React", "TypeScript", "Redux", "Express.js", "Jest", "SQL", "Jenkins", "Grafana"] },
+    { "jobtitle": "Ingeniero de Software", "where": "Microsoft", "url": "https://www.microsoft.com/", "location": "Ciudad de México, México", "date": "2022 - 2024", "highlights": ["Entregué funciones para Microsoft Viva Engage dentro del ecosistema Microsoft 365.", "Mejoré la experiencia con lectores de pantalla y alto contraste e incorporé español latinoamericano.", "Contribuí a la transición de Yammer a Viva Engage y a la detección de preguntas duplicadas mediante IA.", "Colaboré en experiencias integradas con Teams, Outlook, SharePoint y OneDrive."], "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest", "Azure DevOps"] },
+    { "jobtitle": "Ingeniero UI", "where": "Globant", "url": "https://www.globant.com/", "location": "México", "date": "2021 - 2022", "highlights": ["Desarrollé funciones para una plataforma empresarial de reclutamiento utilizada por SoFi.", "Mejoré la mantenibilidad mediante componentes reutilizables e integraciones con APIs."], "technologies": ["React", "TypeScript", "GraphQL", "Jest", "Node.js", "Google Cloud"] },
+    { "jobtitle": "Ingeniero de Software", "where": "Softtek", "url": "https://www.softtek.com/", "location": "México", "date": "2020 - 2021", "highlights": ["Desarrollé flujos escalables de evaluación de candidatos para el software empresarial de Sterling.", "Construí funciones frontend y backend junto con equipos de ingeniería distribuidos."], "technologies": ["React", "TypeScript", "Node.js", "Express.js", "GraphQL", "Google Cloud"] },
+    { "jobtitle": "Ingeniero de Software e Instructor", "where": "DEV.F", "url": "https://devf.la/", "location": "México", "date": "2019 - 2020", "highlights": ["Diseñé y construí el Campus Virtual desde cero y lideré su arquitectura frontend.", "Impartí bootcamps MERN Stack y orienté a cientos de estudiantes de México, Costa Rica y Colombia."], "technologies": ["React", "Vue", "Angular", "Node.js", "MongoDB", "GraphQL"] },
+    { "jobtitle": "Ingeniero Frontend", "where": "Koomkin", "url": "https://www.koomkin.com/", "location": "México", "date": "2017 - 2019", "highlights": ["Construí desde cero la plataforma web principal de la empresa.", "Trabajé directamente con los fundadores para diseñar y lanzar nuevas funciones para clientes."], "technologies": ["Angular", "TypeScript", "Node.js", "Firebase", "MySQL", "Sass"] }
   ],
   "skills": [
-    { "name": "React", "value": 95 }, { "name": "TypeScript", "value": 95 }, { "name": "JavaScript", "value": 95 },
-    { "name": "Next.js", "value": 90 }, { "name": "Node.js y Express", "value": 85 }, { "name": "GraphQL", "value": 85 },
-    { "name": "Redux y Context API", "value": 90 }, { "name": "Jest", "value": 85 },
-    { "name": "Accesibilidad y Localización", "value": 90 }, { "name": "SQL, MySQL y MongoDB", "value": 80 },
-    { "name": "Azure, Google Cloud y Firebase", "value": 75 }, { "name": "Ingeniería asistida por IA", "value": 85 }
+    { "category": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
+    { "category": "Backend y APIs", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
+    { "category": "Pruebas y calidad", "items": ["Jest", "Accesibilidad", "Lectores de pantalla", "Alto contraste", "Revisión de código"] },
+    { "category": "Arquitectura y entrega", "items": ["Arquitectura frontend", "Sistemas de diseño", "Rendimiento", "Autenticación", "CI/CD", "Grafana", "Azure DevOps"] }
   ],
+  "languages": [{ "name": "Español", "level": "Nativo" }, { "name": "Inglés", "level": "Competencia profesional" }, { "name": "Japonés", "level": "Competencia profesional elemental" }],
   "services": [
     { "title": "Ingeniería Frontend Escalable", "description": "Diseño y desarrollo aplicaciones mantenibles con React y TypeScript, sistemas de componentes reutilizables y arquitecturas frontend para productos de escala empresarial." },
     { "title": "Desarrollo de Producto Full-stack", "description": "Construyo experiencias para clientes de principio a fin con Next.js, Node.js, Express, GraphQL y bases de datos relacionales o documentales, colaborando con producto, diseño, backend y QA." },
@@ -51,5 +51,5 @@
   "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
   "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Conecta" },
   "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
-  "meta": { "title": "Gerardo Medina Romero | Ingeniero Fullstack", "description": "Ingeniero Fullstack en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA." }
+  "meta": { "title": "Gerardo Medina Romero | Ingeniero Frontend Senior", "description": "Ingeniero Frontend Senior en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA." }
 }

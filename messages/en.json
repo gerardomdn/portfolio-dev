@@ -4,11 +4,11 @@
   "home": {
     "title": "I'm Gerardo Medina Romero",
     "animated": {
-      "first": "Fullstack Engineer",
+      "first": "Senior Frontend Engineer",
       "second": "React & TypeScript specialist",
       "third": "I build software at scale"
     },
-    "description": "Fullstack Engineer with 8+ years of experience building scalable web applications used by millions of people. I specialize in React, TypeScript, modern frontend architecture, and full-stack development with Node.js.",
+    "description": "Senior Frontend Engineer with 8+ years of experience building scalable web applications for global products used by millions. I specialize in React, TypeScript, frontend architecture, and full-stack development with Node.js.",
     "yourImgUrl": "",
     "btnPortfolio": "View Experience",
     "btnContact": "Contact Me"
@@ -20,30 +20,26 @@
     "workTimelineTitle": "Experience",
     "skillsTitle": "Technical Skills",
     "servicesTitle": "What I Do",
-    "educationTitle": "Education"
+    "educationTitle": "Education",
+    "languagesTitle": "Languages & Location",
+    "technologiesLabel": "Technologies",
+    "workAuthorization": "Based in Tokyo with valid authorization to work in Japan."
   },
   "worktimeline": [
-    { "jobtitle": "Applications Engineer", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "date": "2024 - Present" },
-    { "jobtitle": "Software Engineer", "where": "Microsoft", "url": "https://www.microsoft.com/", "date": "2022 - 2024" },
-    { "jobtitle": "UI Engineer", "where": "Globant", "url": "https://www.globant.com/", "date": "2021 - 2022" },
-    { "jobtitle": "Software Engineer", "where": "Softtek", "url": "https://www.softtek.com/", "date": "2020 - 2021" },
-    { "jobtitle": "Software Engineer & Bootcamp Instructor", "where": "DEV.F", "url": "https://devf.la/", "date": "2019 - 2020" },
-    { "jobtitle": "Frontend Engineer", "where": "Koomkin", "url": "https://www.koomkin.com/", "date": "2017 - 2019" }
+    { "jobtitle": "Applications Engineer — Frontend", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "location": "Tokyo, Japan", "date": "2024 - Present", "highlights": ["Led frontend development of the Social Gift experience from concept to production for one of Japan's largest e-commerce platforms.", "Built the Rakuten Ichiba–Rakuma integration that lets customers resell products from Purchase History.", "Improved authentication, Purchase History performance, and reliability during high-traffic sales events serving millions of customers.", "Developed an AI-powered pull request reviewer to improve code quality and reduce manual review effort."], "technologies": ["React", "TypeScript", "Redux", "Express.js", "Jest", "SQL", "Jenkins", "Grafana"] },
+    { "jobtitle": "Software Engineer", "where": "Microsoft", "url": "https://www.microsoft.com/", "location": "Mexico City, Mexico", "date": "2022 - 2024", "highlights": ["Delivered customer-facing features for Microsoft Viva Engage across the Microsoft 365 ecosystem.", "Improved screen-reader and high-contrast experiences and introduced Latin American Spanish localization.", "Contributed to the Yammer-to-Viva Engage transition and AI-powered duplicate-question detection.", "Built integrated experiences with Teams, Outlook, SharePoint, and OneDrive engineering teams."], "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest", "Azure DevOps"] },
+    { "jobtitle": "UI Engineer", "where": "Globant", "url": "https://www.globant.com/", "location": "Mexico", "date": "2021 - 2022", "highlights": ["Delivered frontend features for an enterprise recruitment platform supporting SoFi.", "Improved maintainability through reusable components and API integrations."], "technologies": ["React", "TypeScript", "GraphQL", "Jest", "Node.js", "Google Cloud"] },
+    { "jobtitle": "Software Engineer", "where": "Softtek", "url": "https://www.softtek.com/", "location": "Mexico", "date": "2020 - 2021", "highlights": ["Delivered scalable candidate-screening workflows for Sterling's enterprise recruitment software.", "Built frontend and backend product functionality with distributed engineering teams."], "technologies": ["React", "TypeScript", "Node.js", "Express.js", "GraphQL", "Google Cloud"] },
+    { "jobtitle": "Software Engineer & Bootcamp Instructor", "where": "DEV.F", "url": "https://devf.la/", "location": "Mexico", "date": "2019 - 2020", "highlights": ["Designed and built the Virtual Campus from the ground up and led its frontend architecture.", "Taught MERN Stack bootcamps and mentored hundreds of students across Mexico, Costa Rica, and Colombia."], "technologies": ["React", "Vue", "Angular", "Node.js", "MongoDB", "GraphQL"] },
+    { "jobtitle": "Frontend Engineer", "where": "Koomkin", "url": "https://www.koomkin.com/", "location": "Mexico", "date": "2017 - 2019", "highlights": ["Built the company's primary web platform from the ground up.", "Worked directly with the founders to design and release customer-facing capabilities."], "technologies": ["Angular", "TypeScript", "Node.js", "Firebase", "MySQL", "Sass"] }
   ],
   "skills": [
-    { "name": "React", "value": 95 },
-    { "name": "TypeScript", "value": 95 },
-    { "name": "JavaScript", "value": 95 },
-    { "name": "Next.js", "value": 90 },
-    { "name": "Node.js & Express", "value": 85 },
-    { "name": "GraphQL", "value": 85 },
-    { "name": "Redux & Context API", "value": 90 },
-    { "name": "Jest", "value": 85 },
-    { "name": "Accessibility & Localization", "value": 90 },
-    { "name": "SQL, MySQL & MongoDB", "value": 80 },
-    { "name": "Azure, Google Cloud & Firebase", "value": 75 },
-    { "name": "AI-assisted Engineering", "value": 85 }
+    { "category": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
+    { "category": "Backend & APIs", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
+    { "category": "Testing & Quality", "items": ["Jest", "Accessibility", "Screen readers", "High-contrast UI", "Code review"] },
+    { "category": "Architecture & Delivery", "items": ["Frontend architecture", "Design systems", "Performance", "Authentication", "CI/CD", "Grafana", "Azure DevOps"] }
   ],
+  "languages": [{ "name": "Spanish", "level": "Native" }, { "name": "English", "level": "Business proficiency" }, { "name": "Japanese", "level": "Elementary working proficiency" }],
   "services": [
     { "title": "Scalable Frontend Engineering", "description": "I design and deliver maintainable React and TypeScript applications, reusable component systems, and frontend architectures for products used at enterprise scale." },
     { "title": "Full-stack Product Development", "description": "I build customer-facing experiences end to end with Next.js, Node.js, Express, GraphQL, and relational or document databases, working closely with product, design, backend, and QA teams." },
@@ -76,5 +72,5 @@
   "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
   "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Connect" },
   "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
-  "meta": { "title": "Gerardo Medina Romero | Fullstack Engineer", "description": "Fullstack Engineer in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI." }
+  "meta": { "title": "Gerardo Medina Romero | Senior Frontend Engineer", "description": "Senior Frontend Engineer in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI." }
 }

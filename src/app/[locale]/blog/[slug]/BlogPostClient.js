@@ -1,12 +1,13 @@
 "use client";
 import { Container, Row, Col } from "react-bootstrap";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import PostContent from "@/components/blog/PostContent";
 import AdBanner from "@/components/blog/AdBanner";
 import { Link } from "@/i18n/navigation";
 
 export default function BlogPostClient({ post }) {
   const t = useTranslations();
+  const locale = useLocale();
 
   return (
     <Container>
@@ -15,7 +16,7 @@ export default function BlogPostClient({ post }) {
           <div className="post-header">
             <h1>{post.title}</h1>
             <p className="post-meta">
-              {new Date(post.publishedDate).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
+              {new Date(post.publishedDate).toLocaleDateString(locale, { year: "numeric", month: "long", day: "numeric" })}
             </p>
             <div className="post-tags">
               {post.tags.map((tag) => (<span key={tag} className="tag">{tag}</span>))}

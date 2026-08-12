@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
     title: t("meta.title"),
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en", es: "/es" },
+      languages: { en: "/en", es: "/es", ja: "/ja" },
     },
   };
 }

@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
     title: `${t("portfolio.pageTitle")} | ${t("meta.title")}`,
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en/portfolio", es: "/es/portfolio" },
+      languages: { en: "/en/portfolio", es: "/es/portfolio", ja: "/ja/portfolio" },
     },
   };
 }

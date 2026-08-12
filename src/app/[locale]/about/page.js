@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
     title: `${t("about.pageTitle")} | ${t("meta.title")}`,
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en/about", es: "/es/about" },
+      languages: { en: "/en/about", es: "/es/about", ja: "/ja/about" },
     },
   };
 }

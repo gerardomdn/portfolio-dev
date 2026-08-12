@@ -1,0 +1,55 @@
+{
+  "logotext": "gerardomdn",
+  "nav": { "home": "ホーム", "about": "プロフィール", "portfolio": "経歴", "blog": "ブログ", "contact": "お問い合わせ" },
+  "home": {
+    "title": "Gerardo Medina Romeroです",
+    "animated": { "first": "シニアフロントエンドエンジニア", "second": "React・TypeScriptスペシャリスト", "third": "大規模なソフトウェアを開発します" },
+    "description": "世界中で数百万人が利用するスケーラブルなWebアプリケーションの開発に8年以上携わってきたシニアフロントエンドエンジニアです。React、TypeScript、フロントエンドアーキテクチャ、Node.jsを用いたフルスタック開発を得意としています。",
+    "yourImgUrl": "", "btnPortfolio": "経歴を見る", "btnContact": "お問い合わせ"
+  },
+  "about": {
+    "pageTitle": "プロフィール", "title": "自己紹介",
+    "aboutme": "楽天とMicrosoftにおいて、グローバルな部門横断チームと協働しながら、自動化とAIを活用したエンジニアリングの改善を推進してきました。測定可能なビジネス成果を生み出す、アクセシブルで保守性の高いソフトウェアを大切にしています。",
+    "workTimelineTitle": "職歴", "skillsTitle": "技術スキル", "servicesTitle": "得意分野", "educationTitle": "学歴", "languagesTitle": "言語・所在地", "technologiesLabel": "使用技術", "workAuthorization": "東京在住。日本での有効な就労資格を保有しています。"
+  },
+  "worktimeline": [
+    { "jobtitle": "アプリケーションエンジニア — フロントエンド", "where": "楽天", "url": "https://global.rakuten.com/corp/", "location": "東京、日本", "date": "2024年 - 現在", "highlights": ["日本最大級のECプラットフォームにおいて、ソーシャルギフトのフロントエンド開発を構想から本番リリースまで主導しました。", "購入履歴から商品を出品できる楽天市場と楽天ラクマの連携機能を開発しました。", "数百万人が利用する認証機能、購入履歴のパフォーマンス、高トラフィックイベント時の信頼性を改善しました。", "コード品質向上とレビュー工数削減のため、AIプルリクエストレビューツールを開発しました。"], "technologies": ["React", "TypeScript", "Redux", "Express.js", "Jest", "SQL", "Jenkins", "Grafana"] },
+    { "jobtitle": "ソフトウェアエンジニア", "where": "Microsoft", "url": "https://www.microsoft.com/", "location": "メキシコシティ、メキシコ", "date": "2022年 - 2024年", "highlights": ["Microsoft 365エコシステムのViva Engage向け顧客機能を開発しました。", "スクリーンリーダーとハイコントラスト表示を改善し、ラテンアメリカ向けスペイン語を導入しました。", "YammerからViva Engageへの移行とAIによる重複質問検出に貢献しました。", "Teams、Outlook、SharePoint、OneDriveの各チームと連携して統合体験を開発しました。"], "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest", "Azure DevOps"] },
+    { "jobtitle": "UIエンジニア", "where": "Globant", "url": "https://www.globant.com/", "location": "メキシコ", "date": "2021年 - 2022年", "highlights": ["SoFiを支援するエンタープライズ採用プラットフォームの機能を開発しました。", "再利用可能なコンポーネントとAPI連携により保守性を向上しました。"], "technologies": ["React", "TypeScript", "GraphQL", "Jest", "Node.js", "Google Cloud"] },
+    { "jobtitle": "ソフトウェアエンジニア", "where": "Softtek", "url": "https://www.softtek.com/", "location": "メキシコ", "date": "2020年 - 2021年", "highlights": ["Sterlingの法人向け採用ソフトウェアにおける候補者スクリーニングフローを開発しました。", "分散型チームと協働し、フロントエンドとバックエンドの機能を実装しました。"], "technologies": ["React", "TypeScript", "Node.js", "Express.js", "GraphQL", "Google Cloud"] },
+    { "jobtitle": "ソフトウェアエンジニア・講師", "where": "DEV.F", "url": "https://devf.la/", "location": "メキシコ", "date": "2019年 - 2020年", "highlights": ["バーチャルキャンパスをゼロから設計・開発し、フロントエンドアーキテクチャを主導しました。", "MERN Stackを指導し、3か国の数百人の受講生をメンタリングしました。"], "technologies": ["React", "Vue", "Angular", "Node.js", "MongoDB", "GraphQL"] },
+    { "jobtitle": "フロントエンドエンジニア", "where": "Koomkin", "url": "https://www.koomkin.com/", "location": "メキシコ", "date": "2017年 - 2019年", "highlights": ["会社の主要Webプラットフォームをゼロから構築しました。", "創業者と直接連携し、顧客向けの新機能を設計・リリースしました。"], "technologies": ["Angular", "TypeScript", "Node.js", "Firebase", "MySQL", "Sass"] }
+  ],
+  "skills": [
+    { "category": "フロントエンド", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
+    { "category": "バックエンド・API", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
+    { "category": "テスト・品質", "items": ["Jest", "アクセシビリティ", "スクリーンリーダー", "ハイコントラストUI", "コードレビュー"] },
+    { "category": "アーキテクチャ・デリバリー", "items": ["フロントエンド設計", "デザインシステム", "パフォーマンス", "認証", "CI/CD", "Grafana", "Azure DevOps"] }
+  ],
+  "languages": [{ "name": "スペイン語", "level": "母語" }, { "name": "英語", "level": "ビジネスレベル" }, { "name": "日本語", "level": "初級実務レベル" }],
+  "services": [
+    { "title": "スケーラブルなフロントエンド開発", "description": "ReactとTypeScriptを用いた保守性の高いアプリケーション、再利用可能なコンポーネントシステム、エンタープライズ規模のフロントエンドアーキテクチャを設計・開発します。" },
+    { "title": "フルスタックプロダクト開発", "description": "プロダクト、デザイン、バックエンド、QAチームと連携し、Next.js、Node.js、Express、GraphQL、リレーショナル／ドキュメントデータベースを用いて顧客向け体験を一貫して構築します。" },
+    { "title": "自動化・AI・品質向上", "description": "テスト、アクセシビリティ、ローカライゼーション、オブザーバビリティ、パフォーマンス、コード品質を重視し、自動化とAIによって開発ワークフローを改善します。" }
+  ],
+  "education": { "degree": "コンピューター工学学士", "school": "メキシコ国立工科大学（IPN）", "location": "メキシコ・メキシコシティ", "date": "2014年 - 2018年" },
+  "dataportfolio": [
+    { "title": "楽天市場 - ソーシャルギフト", "description": "日本最大級のECプラットフォームにおいて、構想から本番リリースまでフロントエンド開発を主導し、アーキテクチャと実装にも貢献しました。", "link": "https://www.rakuten.co.jp/" },
+    { "title": "楽天市場 × 楽天ラクマ", "description": "購入履歴から購入商品を直接出品できる連携機能を開発しました。", "link": "https://fril.jp/" },
+    { "title": "AIプルリクエストレビュー", "description": "AIを活用したレビューツールを開発し、コード品質の向上と手動レビュー工数の削減を実現しました。", "link": "https://global.rakuten.com/corp/innovation/" },
+    { "title": "Microsoft Viva Engage", "description": "エンタープライズ機能、アクセシビリティ改善、ラテンアメリカ向けスペイン語ローカライゼーション、AIによる重複質問検出機能を提供しました。", "link": "https://www.microsoft.com/ja-jp/microsoft-viva/engage" },
+    { "title": "DEV.F バーチャルキャンパス", "description": "コース、コーディング演習、求人情報を一か所に集約するプラットフォームを設計し、フロントエンドアーキテクチャを主導しました。", "link": "https://devf.la/" },
+    { "title": "エンジニア教育", "description": "MERN Stackブートキャンプで講師を務め、メキシコ、コスタリカ、コロンビアの数百人の受講生がソフトウェア分野でキャリアを始める支援をしました。", "link": "https://devf.la/" }
+  ],
+  "contact": {
+    "pageTitle": "お問い合わせ", "getInTouch": "お気軽にご連絡ください", "email": "gerardomdnr@gmail.com", "phone": "",
+    "description": "東京・新宿を拠点にしています。フロントエンド／フルスタック開発、スケーラブルなプロダクト開発、自動化、AIを活用した開発者向けツールについて、お気軽にご相談ください。",
+    "namePlaceholder": "お名前", "emailPlaceholder": "メールアドレス", "messagePlaceholder": "メッセージ", "sendButton": "送信", "sending": "送信中…", "successMessage": "送信しました。お問い合わせありがとうございます。", "failMessage": "送信できませんでした。"
+  },
+  "blog": { "pageTitle": "ブログ", "description": "ソフトウェアエンジニアリング、React、TypeScript、フロントエンドアーキテクチャ、アクセシビリティ、自動化、AIに関する記事です。", "noPosts": "記事はまだありません。近日公開予定です。", "readMore": "続きを読む", "backToBlog": "ブログに戻る" },
+  "portfolio": { "pageTitle": "主な実績", "viewProject": "詳しく見る", "reposTitle": "GitHubリポジトリ", "prsTitle": "マージされたプルリクエスト", "viewRepo": "リポジトリを見る", "viewPR": "プルリクエストを見る", "noPRs": "マージされたプルリクエストは見つかりませんでした。", "noDescription": "説明はありません" },
+  "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
+  "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "つながる" },
+  "emailjs": { "serviceId": "service_id", "templateId": "template_id", "userId": "user_id" },
+  "meta": { "title": "Gerardo Medina Romero | シニアフロントエンドエンジニア", "description": "東京を拠点に、React、TypeScript、フロントエンドアーキテクチャ、Node.js、自動化、AIの分野で8年以上の経験を持つシニアフロントエンドエンジニアです。" }
+}

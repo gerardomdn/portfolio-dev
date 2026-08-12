@@ -9,6 +9,7 @@ export default function AboutClient() {
   const skillsList = t.raw("skills");
   const servicesList = t.raw("services");
   const education = t.raw("education");
+  const languages = t.raw("languages");
 
   return (
     <Container className="About-header">
@@ -24,14 +25,17 @@ export default function AboutClient() {
       </Row>
       <Row className="sec_sp">
         <Col lg="5"><h3 className="color_sec py-4">{t("about.workTimelineTitle")}</h3></Col>
-        <Col lg="7">
-          <table className="table caption-top">
-            <tbody>
-              {worktimeline.map((data, i) => (
-                <tr key={i}><th scope="row">{data.jobtitle}</th><td><a href={data.url} target="_blank" rel="noopener noreferrer">{data.where}</a></td><td>{data.date}</td></tr>
-              ))}
-            </tbody>
-          </table>
+        <Col lg="7" className="experience-list">
+          {worktimeline.map((data, i) => (
+            <details className="experience-card" key={i} open={i === 0}>
+              <summary>
+                <span><strong>{data.jobtitle}</strong><a href={data.url} target="_blank" rel="noopener noreferrer" onClick={(event) => event.stopPropagation()}>{data.where}</a></span>
+                <span className="experience-meta">{data.location} · {data.date}</span>
+              </summary>
+              <ul>{data.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
+              <p className="experience-tech"><strong>{t("about.technologiesLabel")}:</strong> {data.technologies.join(" · ")}</p>
+            </details>
+          ))}
         </Col>
       </Row>
       <Row className="sec_sp">
@@ -43,12 +47,22 @@ export default function AboutClient() {
       <Row className="sec_sp">
         <Col lg="5"><h3 className="color_sec py-4">{t("about.skillsTitle")}</h3></Col>
         <Col lg="7">
-          {skillsList.map((data, i) => (
-            <div key={i}>
-              <h3 className="progress-title">{data.name}</h3>
-              <div className="progress"><div className="progress-bar" style={{ width: `${data.value}%` }}><div className="progress-value">{data.value}%</div></div></div>
+          <div className="skills-grid">{skillsList.map((data) => (
+            <div className="skill-group" key={data.category}>
+              <h5>{data.category}</h5>
+              <div className="skill-tags">{data.items.map((skill) => <span key={skill}>{skill}</span>)}</div>
             </div>
           ))}
+          </div>
+        </Col>
+      </Row>
+      <Row className="sec_sp">
+        <Col lg="5"><h3 className="color_sec py-4">{t("about.languagesTitle")}</h3></Col>
+        <Col lg="7">
+          <div className="language-grid">
+            {languages.map((language) => <div key={language.name}><strong>{language.name}</strong><span>{language.level}</span></div>)}
+          </div>
+          <p className="work-authorization">{t("about.workAuthorization")}</p>
         </Col>
       </Row>
       <Row className="sec_sp">

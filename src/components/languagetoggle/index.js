@@ -17,6 +17,8 @@ export default function LanguageToggle() {
       <button className={locale === "en" ? "active" : ""} onClick={() => switchLocale("en")}>EN</button>
       <span>|</span>
       <button className={locale === "es" ? "active" : ""} onClick={() => switchLocale("es")}>ES</button>
+      <span>|</span>
+      <button className={locale === "ja" ? "active" : ""} onClick={() => switchLocale("ja")}>日本語</button>
     </div>
   );
 }
