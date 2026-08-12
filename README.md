@@ -1,8 +1,6 @@
 # Gerardo Medina Romero - Portfolio
 
-Personal portfolio and engineering blog for Gerardo Medina Romero, a Fullstack Engineer based in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI.
-
-### [Live Preview](https://gerardomdn.github.io)
+Personal portfolio
 
 ### Features
 
@@ -21,8 +19,6 @@ Personal portfolio and engineering blog for Gerardo Medina Romero, a Fullstack E
 corepack yarn install
 corepack yarn dev
 ```
-
-For CMS and contact integrations, configure the relevant Contentful and EmailJS credentials. All localized portfolio copy lives in `messages/en.json` and `messages/es.json`.
 
 Build for production with:
 
