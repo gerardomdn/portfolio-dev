@@ -1,44 +1,37 @@
 "use client";
 import "./home.css";
-import Typewriter from "typewriter-effect";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export default function HomeClient() {
   const t = useTranslations();
-  const imageUrl = t("home.yourImgUrl");
-
+  const work = t.raw("dataportfolio");
   return (
-    <section id="home" className="home">
-      <div className="intro_sec d-block d-lg-flex align-items-center">
-        <div
-          className={`h_bg-image order-1 order-lg-2 h-100 ${imageUrl ? "" : "profile-placeholder"}`}
-          style={imageUrl ? { backgroundImage: `url(${imageUrl})` } : undefined}
-          role="img"
-          aria-label={imageUrl ? t("home.title") : undefined}
-        >
-          {!imageUrl && <span className="profile-monogram" aria-hidden="true">GMR</span>}
-        </div>
-        <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-          <div className="align-self-center">
-            <div className="intro mx-auto">
-              <h2 className="mb-1x">{t("home.title")}</h2>
-              <h1 className="fluidz-48 mb-1x">
-                <Typewriter options={{ strings: [t("home.animated.first"), t("home.animated.second"), t("home.animated.third")], autoStart: true, loop: true, deleteSpeed: 10 }} />
-              </h1>
-              <p className="mb-1x">{t("home.description")}</p>
-              <div className="intro_btn-action pb-5">
-                <Link href="/portfolio" className="text_2">
-                  <div id="button_p" className="ac_btn btn">{t("home.btnPortfolio")}<div className="ring one"></div><div className="ring two"></div><div className="ring three"></div></div>
-                </Link>
-                <Link href="/contact">
-                  <div id="button_h" className="ac_btn btn">{t("home.btnContact")}<div className="ring one"></div><div className="ring two"></div><div className="ring three"></div></div>
-                </Link>
-              </div>
-            </div>
+    <main className="home">
+      <section className="hero-grid" aria-labelledby="hero-title">
+        <div className="hero-copy">
+          <p className="eyebrow"><span className="status-dot" /> {t("home.design.location")}</p>
+          <p className="hero-name">{t("home.animated.first")}</p>
+          <h1 id="hero-title" className="personal-heading">gerardo</h1>
+          <p className="hero-description">{t("home.description")}</p>
+          <div className="hero-actions">
+            <Link href="/portfolio" className="solid-link">{t("home.btnPortfolio")} <span aria-hidden="true">↗</span></Link>
+            <Link href="/contact" className="contact-link">{t("home.btnContact")} <span aria-hidden="true">↗</span></Link>
           </div>
         </div>
-      </div>
-    </section>
+        <div className="identity-art" aria-label={t("home.design.artLabel")} role="img">
+          <div className="art-top"><span>GERARDO / MDN</span><span>35.68° N<br />139.69° E</span></div>
+          <span className="art-orbit orbit-one" /><span className="art-orbit orbit-two" />
+          <span className="art-monogram" aria-hidden="true">g<span>m</span></span>
+          <span className="art-sticker" aria-hidden="true">↗</span>
+          <div className="art-bottom"><span>MX → JP</span><span>{t("home.design.artCaption")}</span></div>
+        </div>
+      </section>
+      <div className="specialties" aria-label={t("about.skillsTitle")}><span>REACT / TYPESCRIPT</span><span aria-hidden="true">✳</span><span>{t("home.design.architecture")}</span><span aria-hidden="true">✳</span><span>{t("home.design.accessibility")}</span></div>
+      <section className="home-work" aria-labelledby="selected-title">
+        <div className="section-heading"><div><p className="eyebrow">01 / {t("home.design.chapter")}</p><h2 id="selected-title">{t("portfolio.pageTitle")}</h2></div><Link href="/about">{t("home.design.story")} <span aria-hidden="true">↗</span></Link></div>
+        <div className="work-list">{work.map((item, i) => <a className="work-row" href={item.link} target="_blank" rel="noopener noreferrer" key={item.title}><span className="work-index">0{i + 1}</span><h3>{item.title}</h3><p>{item.description}</p><span className="work-arrow" aria-hidden="true">↗</span></a>)}</div>
+      </section>
+    </main>
   );
 }

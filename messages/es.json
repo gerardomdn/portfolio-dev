@@ -1,8 +1,9 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "languageSelector": "Selector de idioma", "switchToLight": "Cambiar al tema claro", "switchToDark": "Cambiar al tema oscuro", "openMenu": "Abrir menú de navegación", "closeMenu": "Cerrar menú de navegación" },
+  "accessibility": { "navigation": "Navegación principal", "languageSelector": "Selector de idioma", "switchToLight": "Cambiar al tema claro", "switchToDark": "Cambiar al tema oscuro", "openMenu": "Abrir menú de navegación", "closeMenu": "Cerrar menú de navegación" },
   "nav": { "home": "Inicio", "about": "Acerca de", "portfolio": "Experiencia", "blog": "Blog", "contact": "Contacto" },
   "home": {
+    "design": {"location": "En Tokio · Desde México", "headline": "Crear con intención.", "accent": "Generar impacto.", "artLabel": "Monograma de Gerardo con órbitas que conectan México y Japón", "artCaption": "Distintos lugares. Una perspectiva.", "architecture": "ARQUITECTURA FRONTEND", "accessibility": "ACCESIBILIDAD", "chapter": "Trabajo en el mundo real", "story": "Mi trayectoria"},
     "title": "Soy Gerardo Medina Romero",
     "animated": { "first": "Ingeniero Frontend Senior", "second": "Especialista en React y TypeScript", "third": "Construyo software a escala" },
     "description": "Ingeniero Frontend Senior con más de 8 años de experiencia creando aplicaciones web escalables para productos globales utilizados por millones de personas. Me especializo en React, TypeScript, arquitectura frontend y desarrollo full-stack con Node.js.",

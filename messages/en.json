@@ -1,8 +1,9 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "languageSelector": "Language selector", "switchToLight": "Switch to light theme", "switchToDark": "Switch to dark theme", "openMenu": "Open navigation menu", "closeMenu": "Close navigation menu" },
+  "accessibility": { "navigation": "Main navigation", "languageSelector": "Language selector", "switchToLight": "Switch to light theme", "switchToDark": "Switch to dark theme", "openMenu": "Open navigation menu", "closeMenu": "Close navigation menu" },
   "nav": { "home": "Home", "about": "About", "portfolio": "Experience", "blog": "Blog", "contact": "Contact" },
   "home": {
+    "design": {"location": "Based in Tokyo · Made in Mexico", "headline": "Built with care.", "accent": "Made to matter.", "artLabel": "Custom Gerardo monogram with intersecting orbits, connecting Mexico and Japan", "artCaption": "Different places. One perspective.", "architecture": "FRONTEND ARCHITECTURE", "accessibility": "ACCESSIBILITY", "chapter": "Work in the real world", "story": "The story so far"},
     "title": "I'm Gerardo Medina Romero",
     "animated": {
       "first": "Senior Frontend Engineer",

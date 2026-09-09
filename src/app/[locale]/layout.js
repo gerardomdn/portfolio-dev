@@ -4,7 +4,6 @@ import { routing } from "@/i18n/routing";
 import Headermain from "@/header";
 import { Socialicons } from "@/components/socialicons";
 import ThemeProvider from "@/components/themetoggle/ThemeProvider";
-import AnimatedCursorWrapper from "@/components/AnimatedCursorWrapper";
 import Script from "next/script";
 
 export function generateStaticParams() {
@@ -30,13 +29,9 @@ export default async function LocaleLayout({ children, params }) {
 
   return (
     <html lang={locale} data-scroll-behavior="smooth">
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Marcellus&display=swap" rel="stylesheet" />
-      </head>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
-            <AnimatedCursorWrapper />
             <Headermain />
             <div className="s_c">
               {children}

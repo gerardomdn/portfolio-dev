@@ -1,76 +1,16 @@
-.contact-card {
-    position: relative;
-    padding: clamp(2rem, 7vw, 5rem);
-    border: 1px solid var(--secondary);
-    background: linear-gradient(145deg, color-mix(in srgb, var(--secondary-color) 12%, var(--bg-color)), var(--bg-color));
-    overflow: hidden;
-}
-
-.contact-card::after {
-    content: "@";
-    position: absolute;
-    right: clamp(1rem, 4vw, 3rem);
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--secondary-color);
-    font-family: Marcellus, serif;
-    font-size: clamp(5rem, 14vw, 11rem);
-    line-height: 1;
-    opacity: .08;
-    pointer-events: none;
-}
-
-.contact-label {
-    display: block;
-    margin-bottom: 1rem;
-    color: var(--secondary-color);
-    font-size: .75rem;
-    font-weight: 700;
-    letter-spacing: .16em;
-    text-transform: uppercase;
-}
-
-.contact-card h2 {
-    position: relative;
-    z-index: 1;
-    max-width: 720px;
-    margin-bottom: 1rem;
-    font-size: clamp(1.8rem, 4vw, 3.25rem);
-    line-height: 1.15;
-}
-
-.contact-card p {
-    position: relative;
-    z-index: 1;
-    max-width: 590px;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-    line-height: 1.7;
-    opacity: .72;
-}
-
-.contact-email {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    color: var(--text-color);
-    font-size: .95rem;
-    font-weight: 600;
-    overflow-wrap: anywhere;
-    border-bottom: 1px solid var(--secondary-color);
-    padding-bottom: .35rem;
-}
-
-.contact-email small {
-    display: block;
-    margin-top: .45rem;
-    font-size: .78rem;
-    font-weight: 400;
-    letter-spacing: .02em;
-    opacity: .65;
-}
-
-.contact-email:hover {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
+.contact-page { max-width: 1200px; margin: 0 auto; padding: 64px 5% 80px; }
+.contact-kicker { font: 11px/1.6 ui-monospace, monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin-bottom: 28px; }
+.contact-intro h1 { max-width: 900px; font-size: clamp(2.8rem, 6.5vw, 5.8rem); font-weight: 750; line-height: 1.02; letter-spacing: -.065em; margin-bottom: 24px; }
+.contact-description { max-width: 570px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.contact-postcard { position: relative; margin: 48px 0 30px; padding: clamp(24px, 4vw, 48px); background: #b6a0fa; color: #171819; border: 1px solid #171819; box-shadow: 8px 8px 0 var(--accent); }
+.postcard-top, .postcard-bottom { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.postcard-top { font: 11px/1.6 ui-monospace, monospace; text-transform: uppercase; letter-spacing: .1em; }
+.postcard-stamp { display: grid; place-items: center; width: 58px; height: 66px; flex-shrink: 0; border: 1px dashed #171819; font-size: 40px; transform: rotate(8deg); }
+.contact-email { display: grid; grid-template-columns: minmax(0,1fr) 70px; column-gap: 24px; color: #171819; text-decoration: none; padding: 34px 0 40px; }
+.contact-cta { font-size: clamp(1.8rem, 4vw, 3.5rem); font-weight: 750; line-height: 1.15; letter-spacing: -.055em; }
+.contact-address { grid-column: 1; font: clamp(12px, 1.8vw, 18px)/1.6 ui-monospace, monospace; margin-top: 15px; overflow-wrap: anywhere; }
+.contact-send { grid-column: 2; grid-row: 1 / 3; align-self: center; display: grid; place-items: center; width: 70px; height: 70px; background: #d7ff3f; border: 1px solid #171819; border-radius: 50%; font-size: 42px; transition: transform .2s; }
+.contact-email:hover { color: #171819; }.contact-email:hover .contact-send { transform: rotate(45deg); }.contact-email:focus-visible { outline-color: #171819; }
+.postcard-bottom { padding-top: 22px; border-top: 1px solid #17181955; }.postcard-bottom > span:first-child { font-size: 27px; font-weight: 800; letter-spacing: -.07em; }.postcard-bottom > span:last-child { font: 12px ui-monospace, monospace; }
+.contact-socials { display: flex; align-items: center; gap: 28px; padding-top: 10px; font-size: 12px; }.contact-socials > span { margin-right: auto; color: var(--muted); }.contact-socials a { text-underline-offset: 5px; }
+@media(max-width: 500px) { .contact-page { padding-top: 40px; }.contact-email { grid-template-columns: minmax(0,1fr) 44px; gap: 12px; }.contact-send { width: 44px; height: 44px; font-size: 28px; }.contact-address { grid-column: 1 / -1; }.contact-send { grid-row: 1; }.contact-socials { gap: 18px; } }

@@ -1,8 +1,9 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "languageSelector": "言語選択", "switchToLight": "ライトテーマに切り替える", "switchToDark": "ダークテーマに切り替える", "openMenu": "ナビゲーションメニューを開く", "closeMenu": "ナビゲーションメニューを閉じる" },
+  "accessibility": { "navigation": "メインナビゲーション", "languageSelector": "言語選択", "switchToLight": "ライトテーマに切り替える", "switchToDark": "ダークテーマに切り替える", "openMenu": "ナビゲーションメニューを開く", "closeMenu": "ナビゲーションメニューを閉じる" },
   "nav": { "home": "ホーム", "about": "プロフィール", "portfolio": "経歴", "blog": "ブログ", "contact": "お問い合わせ" },
   "home": {
+    "design": {"location": "東京を拠点に · メキシコ出身", "headline": "丁寧につくる。", "accent": "価値を届ける。", "artLabel": "メキシコと日本を結ぶ軌道とジェラルドのモノグラム", "artCaption": "異なる場所。ひとつの視点。", "architecture": "フロントエンド設計", "accessibility": "アクセシビリティ", "chapter": "実際のプロダクト", "story": "これまでの歩み"},
     "title": "Gerardo Medina Romeroです",
     "animated": { "first": "シニアフロントエンドエンジニア", "second": "React・TypeScriptスペシャリスト", "third": "大規模なソフトウェアを開発します" },
     "description": "世界中で数百万人が利用するスケーラブルなWebアプリケーションの開発に8年以上携わってきたシニアフロントエンドエンジニアです。React、TypeScript、フロントエンドアーキテクチャ、Node.jsを用いたフルスタック開発を得意としています。",
