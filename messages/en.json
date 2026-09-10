@@ -25,15 +25,176 @@
     "educationTitle": "Education",
     "languagesTitle": "Languages & Location",
     "technologiesLabel": "Technologies",
-    "workAuthorization": "Based in Tokyo with valid authorization to work in Japan."
+    "workAuthorization": "Based in Tokyo with valid authorization to work in Japan.",
+    "environmentLabel": "Platform environment"
   },
   "worktimeline": [
-    { "jobtitle": "Applications Engineer — Frontend", "where": "Rakuten", "url": "https://global.rakuten.com/corp/", "location": "Tokyo, Japan", "date": "2024 - Present", "highlights": ["Led frontend development of the Social Gift experience from concept to production for one of Japan's largest e-commerce platforms.", "Built the Rakuten Ichiba–Rakuma integration that lets customers resell products from Purchase History.", "Improved authentication, Purchase History performance, and reliability during high-traffic sales events serving millions of customers.", "Developed an AI-powered pull request reviewer to improve code quality and reduce manual review effort."], "technologies": ["React", "TypeScript", "Redux", "Express.js", "Jest", "SQL", "Jenkins", "Grafana"] },
-    { "jobtitle": "Software Engineer", "where": "Microsoft", "url": "https://www.microsoft.com/", "location": "Mexico City, Mexico", "date": "2022 - 2024", "highlights": ["Delivered customer-facing features for Microsoft Viva Engage across the Microsoft 365 ecosystem.", "Improved screen-reader and high-contrast experiences and introduced Latin American Spanish localization.", "Contributed to the Yammer-to-Viva Engage transition and AI-powered duplicate-question detection.", "Built integrated experiences with Teams, Outlook, SharePoint, and OneDrive engineering teams."], "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest", "Azure DevOps"] },
-    { "jobtitle": "UI Engineer", "where": "Globant", "url": "https://www.globant.com/", "location": "Mexico", "date": "2021 - 2022", "highlights": ["Delivered frontend features for an enterprise recruitment platform supporting SoFi.", "Improved maintainability through reusable components and API integrations."], "technologies": ["React", "TypeScript", "GraphQL", "Jest", "Node.js", "Google Cloud"] },
-    { "jobtitle": "Software Engineer", "where": "Softtek", "url": "https://www.softtek.com/", "location": "Mexico", "date": "2020 - 2021", "highlights": ["Delivered scalable candidate-screening workflows for Sterling's enterprise recruitment software.", "Built frontend and backend product functionality with distributed engineering teams."], "technologies": ["React", "TypeScript", "Node.js", "Express.js", "GraphQL", "Google Cloud"] },
-    { "jobtitle": "Software Engineer & Bootcamp Instructor", "where": "DEV.F", "url": "https://devf.la/", "location": "Mexico", "date": "2019 - 2020", "highlights": ["Designed and built the Virtual Campus from the ground up and led its frontend architecture.", "Taught MERN Stack bootcamps and mentored hundreds of students across Mexico, Costa Rica, and Colombia."], "technologies": ["React", "Vue", "Angular", "Node.js", "MongoDB", "GraphQL"] },
-    { "jobtitle": "Frontend Engineer", "where": "Koomkin", "url": "https://www.koomkin.com/", "location": "Mexico", "date": "2017 - 2019", "highlights": ["Built the company's primary web platform from the ground up.", "Worked directly with the founders to design and release customer-facing capabilities."], "technologies": ["Angular", "TypeScript", "Node.js", "Firebase", "MySQL", "Sass"] }
+    {
+      "jobtitle": "Applications Engineer",
+      "where": "Rakuten",
+      "url": "https://global.rakuten.com/corp/",
+      "location": "Tokyo, Japan",
+      "date": "2024 - Present",
+      "highlights": [
+        "Develop frontend and Backend-for-Frontend (BFF) solutions for Rakuten Ichiba using React, TypeScript, Node.js, Redux, and REST APIs.",
+        "Redesigned and optimized Purchase History for better usability, maintainability, and frontend performance; added English, Chinese, and Korean localization to server-rendered experiences.",
+        "Contributed to Social Gift from architecture and implementation through production release and post-launch support.",
+        "Built and shipped 20+ reusable UI components for consistent desktop and mobile experiences.",
+        "Own features from technical investigation and specification through integration testing, QA, UAT support, release coordination, and production support; support major sales events with performance and load testing and production monitoring.",
+        "Developed an AI-powered pull request reviewer to improve code quality and reduce manual review effort."
+      ],
+      "technologyGroups": [
+        {
+          "label": "Frontend & BFF",
+          "items": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "Redux",
+            "REST APIs",
+            "SSR",
+            "i18n"
+          ]
+        },
+        {
+          "label": "Testing & quality",
+          "items": [
+            "Jest",
+            "Storybook",
+            "Visual Regression Testing",
+            "Performance Testing",
+            "Load Testing"
+          ]
+        },
+        {
+          "label": "Delivery & collaboration",
+          "items": [
+            "Docker",
+            "Bitbucket",
+            "Jenkins",
+            "CI/CD",
+            "Jira",
+            "Confluence"
+          ]
+        }
+      ],
+      "environment": "The wider platform uses CORAL for frontend applications, Apache HTTP Server and Docker on Rakuten One Cloud, and Java 21 / Spring Boot services built with Gradle. Monitoring and incident-response tooling includes Grafana, Kibana, ElastAlert, and R-Bell."
+    },
+    {
+      "jobtitle": "Software Engineer",
+      "where": "Microsoft",
+      "url": "https://www.microsoft.com/",
+      "location": "Mexico City, Mexico",
+      "date": "2022 - 2024",
+      "highlights": [
+        "Delivered customer-facing features for Microsoft Viva Engage across the Microsoft 365 ecosystem.",
+        "Improved screen-reader and high-contrast experiences and introduced Latin American Spanish localization.",
+        "Contributed to the Yammer-to-Viva Engage transition and AI-powered duplicate-question detection.",
+        "Built integrated experiences with Teams, Outlook, SharePoint, and OneDrive engineering teams.",
+        "Expanded reactions and implemented the new Microsoft emoji system."
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Styled Components",
+        "Redux",
+        "Context API",
+        "GraphQL",
+        "Jest",
+        "Azure DevOps",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "UI Engineer",
+      "where": "Globant",
+      "url": "https://www.globant.com/",
+      "location": "Mexico",
+      "date": "2021 - 2022",
+      "highlights": [
+        "Delivered frontend features for an enterprise recruitment platform supporting SoFi.",
+        "Improved maintainability through reusable components and API integrations."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Software Engineer",
+      "where": "Softtek",
+      "url": "https://www.softtek.com/",
+      "location": "Mexico",
+      "date": "2020 - 2021",
+      "highlights": [
+        "Delivered scalable candidate-screening workflows for Sterling's enterprise recruitment software.",
+        "Built frontend and backend product functionality with distributed engineering teams."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Software Engineer & Bootcamp Instructor",
+      "where": "DEV.F",
+      "url": "https://devf.la/",
+      "location": "Mexico",
+      "date": "2019 - 2020",
+      "highlights": [
+        "Designed and built the Virtual Campus to centralize courses, coding exercises, and job opportunities, leading frontend architecture and technology selection.",
+        "Taught MERN Stack bootcamps and mentored hundreds of students across Mexico, Costa Rica, and Colombia."
+      ],
+      "technologies": [
+        "React",
+        "Vue",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GraphQL",
+        "Google Cloud",
+        "JavaScript",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "Frontend Engineer",
+      "where": "Koomkin",
+      "url": "https://www.koomkin.com/",
+      "location": "Mexico",
+      "date": "2017 - 2019",
+      "highlights": [
+        "Built the company's primary web platform from the ground up.",
+        "Worked directly with the founders to design and release customer-facing capabilities."
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "Firebase",
+        "MySQL",
+        "Sass"
+      ]
+    }
   ],
   "skills": [
     { "category": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
@@ -54,9 +215,21 @@
     "date": "2014 - 2018"
   },
   "dataportfolio": [
-    { "title": "Rakuten", "description": "I build customer-facing experiences for Rakuten Ichiba, one of Japan's largest e-commerce platforms. My work includes leading the Social Gift frontend from concept to production, connecting Purchase History with Rakuma so customers can resell purchased products, and improving key purchase-history and authentication flows for millions of users.", "link": "https://www.rakuten.co.jp/" },
-    { "title": "Microsoft Viva Engage", "description": "Delivered enterprise features, accessibility improvements, Latin American Spanish localization, and AI-powered duplicate-question detection.", "link": "https://www.microsoft.com/en-us/microsoft-viva/engage" },
-    { "title": "DEV.F", "description": "Designed and built the Virtual Campus from the ground up, led its frontend architecture, and taught MERN Stack bootcamps that helped hundreds of students across Mexico, Costa Rica, and Colombia begin careers in software.", "link": "https://devf.la/" }
+    {
+      "title": "Rakuten Ichiba",
+      "description": "I develop frontend and Node.js BFF solutions for Rakuten Ichiba. I redesigned Purchase History, added English, Chinese, and Korean localization to its server-rendered experience, and shipped 20+ reusable UI components. I also contributed to Social Gift from architecture through launch and post-launch support, with responsibilities spanning testing, release coordination, and production reliability.",
+      "link": "https://www.rakuten.co.jp/"
+    },
+    {
+      "title": "Microsoft Viva Engage",
+      "description": "I built customer-facing features for Microsoft Viva Engage within Microsoft 365, collaborating with Teams, Outlook, SharePoint, and OneDrive teams. My work included the Yammer-to-Viva Engage transition, AI-powered duplicate-question detection, screen-reader and high-contrast improvements, Latin American Spanish localization, and expanded reactions with the new Microsoft emoji system.",
+      "link": "https://www.microsoft.com/en-us/microsoft-viva/engage"
+    },
+    {
+      "title": "DEV.F",
+      "description": "I designed and built DEV.F’s Virtual Campus to bring courses, coding exercises, and job opportunities into one platform, leading frontend architecture and technology selection. Alongside product development, I taught MERN Stack bootcamps and mentored hundreds of aspiring engineers in Mexico, Costa Rica, and Colombia.",
+      "link": "https://devf.la/"
+    }
   ],
   "contact": {
     "pageTitle": "Contact Me",

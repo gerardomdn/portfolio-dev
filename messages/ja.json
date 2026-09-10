@@ -10,17 +10,185 @@
     "yourImgUrl": "", "btnPortfolio": "経歴を見る", "btnContact": "お問い合わせ"
   },
   "about": {
-    "pageTitle": "プロフィール", "title": "自己紹介",
+    "pageTitle": "プロフィール",
+    "title": "自己紹介",
     "aboutme": "楽天とMicrosoftにおいて、グローバルな部門横断チームと協働しながら、自動化とAIを活用したエンジニアリングの改善を推進してきました。測定可能なビジネス成果を生み出す、アクセシブルで保守性の高いソフトウェアを大切にしています。",
-    "workTimelineTitle": "職歴", "skillsTitle": "技術スキル", "servicesTitle": "得意分野", "educationTitle": "学歴", "languagesTitle": "言語・所在地", "technologiesLabel": "使用技術", "workAuthorization": "東京在住。日本での有効な就労資格を保有しています。"
+    "workTimelineTitle": "職歴",
+    "skillsTitle": "技術スキル",
+    "servicesTitle": "得意分野",
+    "educationTitle": "学歴",
+    "languagesTitle": "言語・所在地",
+    "technologiesLabel": "使用技術",
+    "workAuthorization": "東京在住。日本での有効な就労資格を保有しています。",
+    "environmentLabel": "プラットフォーム環境"
   },
   "worktimeline": [
-    { "jobtitle": "アプリケーションエンジニア — フロントエンド", "where": "楽天", "url": "https://global.rakuten.com/corp/", "location": "東京、日本", "date": "2024年 - 現在", "highlights": ["日本最大級のECプラットフォームにおいて、ソーシャルギフトのフロントエンド開発を構想から本番リリースまで主導しました。", "購入履歴から商品を出品できる楽天市場と楽天ラクマの連携機能を開発しました。", "数百万人が利用する認証機能、購入履歴のパフォーマンス、高トラフィックイベント時の信頼性を改善しました。", "コード品質向上とレビュー工数削減のため、AIプルリクエストレビューツールを開発しました。"], "technologies": ["React", "TypeScript", "Redux", "Express.js", "Jest", "SQL", "Jenkins", "Grafana"] },
-    { "jobtitle": "ソフトウェアエンジニア", "where": "Microsoft", "url": "https://www.microsoft.com/", "location": "メキシコシティ、メキシコ", "date": "2022年 - 2024年", "highlights": ["Microsoft 365エコシステムのViva Engage向け顧客機能を開発しました。", "スクリーンリーダーとハイコントラスト表示を改善し、ラテンアメリカ向けスペイン語を導入しました。", "YammerからViva Engageへの移行とAIによる重複質問検出に貢献しました。", "Teams、Outlook、SharePoint、OneDriveの各チームと連携して統合体験を開発しました。"], "technologies": ["React", "Next.js", "TypeScript", "GraphQL", "Jest", "Azure DevOps"] },
-    { "jobtitle": "UIエンジニア", "where": "Globant", "url": "https://www.globant.com/", "location": "メキシコ", "date": "2021年 - 2022年", "highlights": ["SoFiを支援するエンタープライズ採用プラットフォームの機能を開発しました。", "再利用可能なコンポーネントとAPI連携により保守性を向上しました。"], "technologies": ["React", "TypeScript", "GraphQL", "Jest", "Node.js", "Google Cloud"] },
-    { "jobtitle": "ソフトウェアエンジニア", "where": "Softtek", "url": "https://www.softtek.com/", "location": "メキシコ", "date": "2020年 - 2021年", "highlights": ["Sterlingの法人向け採用ソフトウェアにおける候補者スクリーニングフローを開発しました。", "分散型チームと協働し、フロントエンドとバックエンドの機能を実装しました。"], "technologies": ["React", "TypeScript", "Node.js", "Express.js", "GraphQL", "Google Cloud"] },
-    { "jobtitle": "ソフトウェアエンジニア・講師", "where": "DEV.F", "url": "https://devf.la/", "location": "メキシコ", "date": "2019年 - 2020年", "highlights": ["バーチャルキャンパスをゼロから設計・開発し、フロントエンドアーキテクチャを主導しました。", "MERN Stackを指導し、3か国の数百人の受講生をメンタリングしました。"], "technologies": ["React", "Vue", "Angular", "Node.js", "MongoDB", "GraphQL"] },
-    { "jobtitle": "フロントエンドエンジニア", "where": "Koomkin", "url": "https://www.koomkin.com/", "location": "メキシコ", "date": "2017年 - 2019年", "highlights": ["会社の主要Webプラットフォームをゼロから構築しました。", "創業者と直接連携し、顧客向けの新機能を設計・リリースしました。"], "technologies": ["Angular", "TypeScript", "Node.js", "Firebase", "MySQL", "Sass"] }
+    {
+      "jobtitle": "アプリケーションエンジニア",
+      "where": "楽天",
+      "url": "https://global.rakuten.com/corp/",
+      "location": "東京、日本",
+      "date": "2024年 - 現在",
+      "highlights": [
+        "React、TypeScript、Node.js、Redux、REST APIを用いて、楽天市場のフロントエンドおよびBackend-for-Frontend（BFF）を開発しています。",
+        "購入履歴を再設計・最適化し、使いやすさ、保守性、フロントエンドのパフォーマンスを改善しました。サーバーサイドレンダリングされた画面に英語・中国語・韓国語のローカライゼーションを実装しました。",
+        "ソーシャルギフトの設計・実装から本番リリース、リリース後のサポートまで貢献しました。",
+        "デスクトップとモバイルで一貫した体験を提供するため、20以上の再利用可能なUIコンポーネントを開発・リリースしました。",
+        "技術調査・仕様策定から結合テスト、QA、UAT支援、リリース調整、本番運用サポートまで担当しています。大型セール時には性能・負荷テストと本番監視を通じて安定稼働を支えています。",
+        "コード品質の向上と手動レビューの負担軽減のため、AIを活用したプルリクエストレビューツールを開発しました。"
+      ],
+      "technologyGroups": [
+        {
+          "label": "フロントエンド・BFF",
+          "items": [
+            "React",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "Redux",
+            "REST APIs",
+            "SSR",
+            "i18n"
+          ]
+        },
+        {
+          "label": "テスト・品質",
+          "items": [
+            "Jest",
+            "Storybook",
+            "Visual Regression Testing",
+            "Performance Testing",
+            "Load Testing"
+          ]
+        },
+        {
+          "label": "デリバリー・コラボレーション",
+          "items": [
+            "Docker",
+            "Bitbucket",
+            "Jenkins",
+            "CI/CD",
+            "Jira",
+            "Confluence"
+          ]
+        }
+      ],
+      "environment": "プラットフォーム全体では、フロントエンドにCORALを使用し、Rakuten One Cloud上でApache HTTP ServerとDockerを利用しています。バックエンドはJava 21・Spring Boot、ビルドにはGradleを使用しています。監視・インシデント対応にはGrafana、Kibana、ElastAlert、R-Bellを利用しています。"
+    },
+    {
+      "jobtitle": "ソフトウェアエンジニア",
+      "where": "Microsoft",
+      "url": "https://www.microsoft.com/",
+      "location": "メキシコシティ、メキシコ",
+      "date": "2022年 - 2024年",
+      "highlights": [
+        "Microsoft 365エコシステムのViva Engage向け顧客機能を開発しました。",
+        "スクリーンリーダーとハイコントラスト表示を改善し、ラテンアメリカ向けスペイン語を導入しました。",
+        "YammerからViva Engageへの移行とAIによる重複質問検出に貢献しました。",
+        "Teams、Outlook、SharePoint、OneDriveの各チームと連携して統合体験を開発しました。",
+        "リアクションを拡充し、新しいMicrosoft絵文字システムを実装しました。"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Styled Components",
+        "Redux",
+        "Context API",
+        "GraphQL",
+        "Jest",
+        "Azure DevOps",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "UIエンジニア",
+      "where": "Globant",
+      "url": "https://www.globant.com/",
+      "location": "メキシコ",
+      "date": "2021年 - 2022年",
+      "highlights": [
+        "SoFiを支援するエンタープライズ採用プラットフォームの機能を開発しました。",
+        "再利用可能なコンポーネントとAPI連携により保守性を向上しました。"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "ソフトウェアエンジニア",
+      "where": "Softtek",
+      "url": "https://www.softtek.com/",
+      "location": "メキシコ",
+      "date": "2020年 - 2021年",
+      "highlights": [
+        "Sterlingの法人向け採用ソフトウェアにおける候補者スクリーニングフローを開発しました。",
+        "分散型チームと協働し、フロントエンドとバックエンドの機能を実装しました。"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "GraphQL",
+        "Jest",
+        "Node.js",
+        "Express.js",
+        "Google Cloud",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "ソフトウェアエンジニア・講師",
+      "where": "DEV.F",
+      "url": "https://devf.la/",
+      "location": "メキシコ",
+      "date": "2019年 - 2020年",
+      "highlights": [
+        "コース、プログラミング演習、求人情報を一元化するバーチャルキャンパスを設計・開発し、フロントエンドアーキテクチャと技術選定を主導しました。",
+        "MERN Stackを指導し、3か国の数百人の受講生をメンタリングしました。"
+      ],
+      "technologies": [
+        "React",
+        "Vue",
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "GraphQL",
+        "Google Cloud",
+        "JavaScript",
+        "Figma"
+      ]
+    },
+    {
+      "jobtitle": "フロントエンドエンジニア",
+      "where": "Koomkin",
+      "url": "https://www.koomkin.com/",
+      "location": "メキシコ",
+      "date": "2017年 - 2019年",
+      "highlights": [
+        "会社の主要Webプラットフォームをゼロから構築しました。",
+        "創業者と直接連携し、顧客向けの新機能を設計・リリースしました。"
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "Firebase",
+        "MySQL",
+        "Sass"
+      ]
+    }
   ],
   "skills": [
     { "category": "フロントエンド", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
@@ -36,9 +204,21 @@
   ],
   "education": { "degree": "コンピューター工学学士", "school": "メキシコ国立工科大学（IPN）", "location": "メキシコ・メキシコシティ", "date": "2014年 - 2018年" },
   "dataportfolio": [
-    { "title": "楽天", "description": "日本最大級のECプラットフォームである楽天市場の顧客向け体験を開発しています。ソーシャルギフトのフロントエンドを構想から本番リリースまで主導したほか、購入履歴と楽天ラクマを連携して再出品を容易にし、数百万人が利用する認証および購入履歴の主要フローを改善しました。", "link": "https://www.rakuten.co.jp/" },
-    { "title": "Microsoft Viva Engage", "description": "エンタープライズ機能、アクセシビリティ改善、ラテンアメリカ向けスペイン語ローカライゼーション、AIによる重複質問検出機能を提供しました。", "link": "https://www.microsoft.com/ja-jp/microsoft-viva/engage" },
-    { "title": "DEV.F", "description": "バーチャルキャンパスをゼロから設計・開発してフロントエンドアーキテクチャを主導し、MERN Stackブートキャンプを通じてメキシコ、コスタリカ、コロンビアの数百人がソフトウェア分野でキャリアを始める支援をしました。", "link": "https://devf.la/" }
+    {
+      "title": "楽天市場",
+      "description": "楽天市場のフロントエンドとNode.jsによるBFFを開発しています。購入履歴を再設計し、サーバーサイドレンダリングされた画面に英語・中国語・韓国語対応を追加したほか、20以上の再利用可能なUIコンポーネントをリリースしました。ソーシャルギフトの設計からリリース後のサポートにも貢献し、テスト、リリース調整、本番環境の安定稼働まで担当しています。",
+      "link": "https://www.rakuten.co.jp/"
+    },
+    {
+      "title": "Microsoft Viva Engage",
+      "description": "Teams、Outlook、SharePoint、OneDriveの各チームと連携し、Microsoft 365のViva Engage向け機能を開発しました。YammerからViva Engageへの移行、AIによる重複質問検出、スクリーンリーダーとハイコントラスト表示の改善、ラテンアメリカ向けスペイン語対応、リアクションの拡充と新しいMicrosoft絵文字システムの実装に携わりました。",
+      "link": "https://www.microsoft.com/ja-jp/microsoft-viva/engage"
+    },
+    {
+      "title": "DEV.F",
+      "description": "コース、プログラミング演習、求人情報を一元化するDEV.Fのバーチャルキャンパスを設計・開発し、フロントエンドアーキテクチャと技術選定を主導しました。プロダクト開発と並行してMERN Stackブートキャンプで指導し、メキシコ、コスタリカ、コロンビアの数百人のエンジニア志望者をメンタリングしました。",
+      "link": "https://devf.la/"
+    }
   ],
   "contact": {
     "pageTitle": "お問い合わせ", "email": "gerardomdnr@gmail.com", "emailLabel": "メールアドレス", "eyebrow": "プロジェクトのご相談", "invitation": "一緒に価値あるものをつくりましょう。", "description": "意義のあるプロダクト、挑戦的なエンジニアリング課題、優れたユーザー体験を生み出す機会について、ぜひお気軽にご相談ください。", "emailCta": "メールを送る"

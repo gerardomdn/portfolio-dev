@@ -1,11 +1,11 @@
 "use client";
 import "./home.css";
+import SelectedWork from "@/components/selectedWork";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
 export default function HomeClient() {
   const t = useTranslations();
-  const work = t.raw("dataportfolio");
   return (
     <main className="home">
       <section className="hero-grid" aria-labelledby="hero-title">
@@ -30,7 +30,7 @@ export default function HomeClient() {
       <div className="specialties" aria-label={t("about.skillsTitle")}><span>REACT / TYPESCRIPT</span><span aria-hidden="true">✳</span><span>{t("home.design.architecture")}</span><span aria-hidden="true">✳</span><span>{t("home.design.accessibility")}</span></div>
       <section className="home-work" aria-labelledby="selected-title">
         <div className="section-heading"><div><p className="eyebrow">01 / {t("home.design.chapter")}</p><h2 id="selected-title">{t("portfolio.pageTitle")}</h2></div><Link href="/about">{t("home.design.story")} <span aria-hidden="true">↗</span></Link></div>
-        <div className="work-list">{work.map((item, i) => <a className="work-row" href={item.link} target="_blank" rel="noopener noreferrer" key={item.title}><span className="work-index">0{i + 1}</span><h3>{item.title}</h3><p>{item.description}</p><span className="work-arrow" aria-hidden="true">↗</span></a>)}</div>
+        <SelectedWork />
       </section>
     </main>
   );

@@ -33,7 +33,16 @@ export default function AboutClient() {
                 <span className="experience-meta">{data.location} · {data.date}</span>
               </summary>
               <ul>{data.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
-              <p className="experience-tech"><strong>{t("about.technologiesLabel")}:</strong> {data.technologies.join(" · ")}</p>
+              {data.technologyGroups ? (
+                <div className="experience-stack">
+                  {data.technologyGroups.map((group) => (
+                    <p className="experience-tech" key={group.label}><strong>{group.label}:</strong> {group.items.join(" · ")}</p>
+                  ))}
+                </div>
+              ) : (
+                <p className="experience-tech"><strong>{t("about.technologiesLabel")}:</strong> {data.technologies.join(" · ")}</p>
+              )}
+              {data.environment && <p className="experience-tech"><strong>{t("about.environmentLabel")}:</strong> {data.environment}</p>}
             </details>
           ))}
         </Col>
