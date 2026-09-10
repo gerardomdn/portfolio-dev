@@ -33,3 +33,6 @@ id_ed25519
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local package-manager state
+/.yarn/

@@ -1,3 +1,4 @@
+import PageMessages from "@/i18n/PageMessages";
 import { languageAlternates } from "@/lib/site";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -37,5 +38,5 @@ export default async function BlogPostPage({ params }) {
   const post = await getPostBySlug(slug);
   if (!post) notFound();
 
-  return <BlogPostClient post={post} />;
+  return <PageMessages locale={locale} namespaces={["blog.backToBlog"]}><BlogPostClient post={post} /></PageMessages>;
 }

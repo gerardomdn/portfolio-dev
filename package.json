@@ -14,18 +14,13 @@
         "react": "^18.2.0",
         "react-bootstrap": "^2.7.0",
         "react-dom": "^18.2.0",
-        "react-icons": "^4.1.0",
-        "typewriter-effect": "^2.18.2",
-        "web-vitals": "^3.1.1"
+        "react-icons": "^4.1.0"
     },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
         "start": "python3 -m http.server 3000 --directory out",
-        "postbuild": "next-sitemap && node scripts/finalize-export.mjs"
-    },
-    "devDependencies": {
-        "gh-pages": "^6.2.0"
-    },
-    "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39"
+        "postbuild": "next-sitemap && node scripts/finalize-export.mjs",
+        "test": "node --test tests/*.test.mjs"
+    }
 }

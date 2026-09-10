@@ -1,3 +1,4 @@
+import PageMessages from "@/i18n/PageMessages";
 import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllPosts } from "@/lib/contentful";
@@ -28,5 +29,5 @@ export default async function BlogPage({ params }) {
     posts = [];
   }
 
-  return <BlogClient posts={posts} />;
+  return <PageMessages locale={locale} namespaces={["blog"]}><BlogClient posts={posts} /></PageMessages>;
 }

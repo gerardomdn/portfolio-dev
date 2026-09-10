@@ -34,7 +34,6 @@
   line-height: 1.55;
 }
 .github-repos-intro { opacity: .7; max-width: 600px; }
-.github-repos-status { margin: 2rem 0; opacity: .65; font-style: italic; }
 .repo-meta { display: flex; gap: 1rem; margin: auto 0 1rem; font-size: .75rem; opacity: .65; }
 
 .repo-item a {

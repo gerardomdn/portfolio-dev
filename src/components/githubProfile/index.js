@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import "./style.css";
 
-export const GithubContributions = () => {
+export const GithubProfile = () => {
   const [profile, setProfile] = useState(null);
   const username = "gerardomdn";
   const t = useTranslations("portfolio");

@@ -4,7 +4,7 @@ import SelectedWork from "@/components/selectedWork";
 import { Container, Row, Col } from "react-bootstrap";
 import { useTranslations } from "next-intl";
 import { GithubRepos } from "@/components/githubRepos";
-import { GithubContributions } from "@/components/githuhContributions";
+import { GithubProfile } from "@/components/githubProfile";
 
 export default function PortfolioClient() {
   const t = useTranslations();
@@ -19,7 +19,7 @@ export default function PortfolioClient() {
         </Col>
       </Row>
       <div className="mb-5"><SelectedWork headingLevel="h2" /></div>
-      <GithubContributions />
+      <GithubProfile />
       <GithubRepos />
     </Container>
   );

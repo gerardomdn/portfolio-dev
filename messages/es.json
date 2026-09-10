@@ -1,13 +1,36 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "navigation": "Navegación principal", "languageSelector": "Selector de idioma", "switchToLight": "Cambiar al tema claro", "switchToDark": "Cambiar al tema oscuro", "openMenu": "Abrir menú de navegación", "closeMenu": "Cerrar menú de navegación" },
-  "nav": { "home": "Inicio", "about": "Acerca de", "portfolio": "Experiencia", "blog": "Blog", "contact": "Contacto" },
+  "accessibility": {
+    "navigation": "Navegación principal",
+    "languageSelector": "Selector de idioma",
+    "switchToLight": "Cambiar al tema claro",
+    "switchToDark": "Cambiar al tema oscuro",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "portfolio": "Experiencia",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
   "home": {
-    "design": {"location": "En Tokio · Desde México", "headline": "Crear con intención.", "accent": "Generar impacto.", "artLabel": "Monograma de Gerardo con órbitas que conectan México y Japón", "artCaption": "Distintos lugares. Una perspectiva.", "architecture": "ARQUITECTURA FRONTEND", "accessibility": "ACCESIBILIDAD", "chapter": "Trabajo en el mundo real", "story": "Mi trayectoria"},
-    "title": "Soy Gerardo Medina Romero",
-    "animated": { "first": "Ingeniero Frontend Senior", "second": "Especialista en React y TypeScript", "third": "Construyo software a escala" },
+    "design": {
+      "location": "En Tokio · Desde México",
+      "artLabel": "Monograma de Gerardo con órbitas que conectan México y Japón",
+      "artCaption": "Distintos lugares. Una perspectiva.",
+      "architecture": "ARQUITECTURA FRONTEND",
+      "accessibility": "ACCESIBILIDAD",
+      "chapter": "Trabajo en el mundo real",
+      "story": "Mi trayectoria"
+    },
+    "animated": {
+      "first": "Ingeniero Frontend Senior"
+    },
     "description": "Ingeniero Frontend Senior con más de 8 años de experiencia creando aplicaciones web escalables para productos globales utilizados por millones de personas. Me especializo en React, TypeScript, arquitectura frontend y desarrollo full-stack con Node.js.",
-    "yourImgUrl": "", "btnPortfolio": "Ver Experiencia", "btnContact": "Contáctame"
+    "btnPortfolio": "Ver Experiencia",
+    "btnContact": "Contáctame"
   },
   "about": {
     "pageTitle": "Acerca de mí",
@@ -18,9 +41,7 @@
     "servicesTitle": "Lo que hago",
     "educationTitle": "Educación",
     "languagesTitle": "Idiomas y ubicación",
-    "technologiesLabel": "Tecnologías",
-    "workAuthorization": "Resido en Tokio y cuento con autorización vigente para trabajar en Japón.",
-    "environmentLabel": "Entorno de la plataforma"
+    "technologiesLabel": "Tecnologías"
   },
   "worktimeline": [
     {
@@ -30,51 +51,20 @@
       "location": "Tokio, Japón",
       "date": "2024 - Presente",
       "highlights": [
-        "Desarrollo soluciones frontend y Backend-for-Frontend (BFF) para Rakuten Ichiba con React, TypeScript, Node.js, Redux y APIs REST.",
-        "Rediseñé y optimicé el historial de compras para mejorar su usabilidad, mantenibilidad y rendimiento; incorporé localización en inglés, chino y coreano en experiencias renderizadas en el servidor.",
-        "Contribuí a Social Gift desde la arquitectura y la implementación hasta el lanzamiento a producción y el soporte posterior.",
-        "Desarrollé y lancé más de 20 componentes de UI reutilizables para ofrecer experiencias consistentes en escritorio y móvil.",
-        "Me responsabilizo de funcionalidades desde la investigación técnica y la especificación hasta las pruebas de integración, QA, apoyo a UAT, coordinación de lanzamientos y soporte en producción; apoyo eventos comerciales de alto tráfico con pruebas de rendimiento y carga y monitoreo en producción.",
-        "Desarrollé un revisor de pull requests con IA para mejorar la calidad del código y reducir el esfuerzo de revisión manual."
+        "Desarrollo experiencias web para clientes de Rakuten Ichiba con React, TypeScript y Node.js.",
+        "Mejoro la usabilidad, accesibilidad, localización y rendimiento frontend en escritorio y móvil.",
+        "Creo componentes de UI reutilizables y colaboro con equipos de producto, diseño e ingeniería.",
+        "Contribuyo al desarrollo, las pruebas, los lanzamientos y el soporte continuo del producto."
       ],
-      "technologyGroups": [
-        {
-          "label": "Frontend y BFF",
-          "items": [
-            "React",
-            "TypeScript",
-            "JavaScript",
-            "Node.js",
-            "Express.js",
-            "Redux",
-            "REST APIs",
-            "SSR",
-            "i18n"
-          ]
-        },
-        {
-          "label": "Pruebas y calidad",
-          "items": [
-            "Jest",
-            "Storybook",
-            "Visual Regression Testing",
-            "Performance Testing",
-            "Load Testing"
-          ]
-        },
-        {
-          "label": "Entrega y colaboración",
-          "items": [
-            "Docker",
-            "Bitbucket",
-            "Jenkins",
-            "CI/CD",
-            "Jira",
-            "Confluence"
-          ]
-        }
-      ],
-      "environment": "Trabajo en una plataforma de comercio electrónico de gran escala, colaborando con equipos frontend y backend y apoyando la entrega con contenedores, el monitoreo en producción y la respuesta a incidentes."
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Redux",
+        "REST APIs",
+        "Jest",
+        "Docker"
+      ]
     },
     {
       "jobtitle": "Ingeniero de Software",
@@ -110,7 +100,7 @@
       "location": "México",
       "date": "2021 - 2022",
       "highlights": [
-        "Desarrollé funciones para una plataforma empresarial de reclutamiento utilizada por SoFi.",
+        "Desarrollé funciones frontend y componentes reutilizables para una plataforma empresarial de reclutamiento.",
         "Mejoré la mantenibilidad mediante componentes reutilizables e integraciones con APIs."
       ],
       "technologies": [
@@ -132,7 +122,7 @@
       "location": "México",
       "date": "2020 - 2021",
       "highlights": [
-        "Desarrollé flujos escalables de evaluación de candidatos para el software empresarial de Sterling.",
+        "Construí funciones frontend y backend para flujos empresariales de evaluación de candidatos.",
         "Construí funciones frontend y backend junto con equipos de ingeniería distribuidos."
       ],
       "technologies": [
@@ -191,22 +181,92 @@
     }
   ],
   "skills": [
-    { "category": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
-    { "category": "Backend y APIs", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
-    { "category": "Pruebas y calidad", "items": ["Jest", "Accesibilidad", "Lectores de pantalla", "Alto contraste", "Revisión de código"] },
-    { "category": "Arquitectura y entrega", "items": ["Arquitectura frontend", "Sistemas de diseño", "Rendimiento", "Autenticación", "CI/CD", "Grafana", "Azure DevOps"] }
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Redux",
+        "Angular",
+        "Vue",
+        "Sass"
+      ]
+    },
+    {
+      "category": "Backend y APIs",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "GraphQL",
+        "SQL",
+        "MongoDB",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "Pruebas y calidad",
+      "items": [
+        "Jest",
+        "Accesibilidad",
+        "Lectores de pantalla",
+        "Alto contraste",
+        "Revisión de código"
+      ]
+    },
+    {
+      "category": "Arquitectura y entrega",
+      "items": [
+        "Arquitectura frontend",
+        "Sistemas de diseño",
+        "Rendimiento",
+        "Autenticación",
+        "CI/CD",
+        "Grafana",
+        "Azure DevOps"
+      ]
+    }
   ],
-  "languages": [{ "name": "Español", "level": "Nativo" }, { "name": "Inglés", "level": "Competencia profesional" }, { "name": "Japonés", "level": "Competencia profesional elemental" }],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "Competencia profesional"
+    },
+    {
+      "name": "Japonés",
+      "level": "Competencia profesional elemental"
+    }
+  ],
   "services": [
-    { "title": "Ingeniería Frontend Escalable", "description": "Diseño y desarrollo aplicaciones mantenibles con React y TypeScript, sistemas de componentes reutilizables y arquitecturas frontend para productos de escala empresarial." },
-    { "title": "Desarrollo de Producto Full-stack", "description": "Construyo experiencias para clientes de principio a fin con Next.js, Node.js, Express, GraphQL y bases de datos relacionales o documentales, colaborando con producto, diseño, backend y QA." },
-    { "title": "Automatización, IA y Calidad", "description": "Mejoro flujos de ingeniería mediante automatización e IA, con énfasis en pruebas, accesibilidad, localización, observabilidad, rendimiento y calidad de código." }
+    {
+      "title": "Ingeniería Frontend Escalable",
+      "description": "Diseño y desarrollo aplicaciones mantenibles con React y TypeScript, sistemas de componentes reutilizables y arquitecturas frontend para productos de escala empresarial."
+    },
+    {
+      "title": "Desarrollo de Producto Full-stack",
+      "description": "Construyo experiencias para clientes de principio a fin con Next.js, Node.js, Express, GraphQL y bases de datos relacionales o documentales, colaborando con producto, diseño, backend y QA."
+    },
+    {
+      "title": "Automatización, IA y Calidad",
+      "description": "Mejoro flujos de ingeniería mediante automatización e IA, con énfasis en pruebas, accesibilidad, localización, observabilidad, rendimiento y calidad de código."
+    }
   ],
-  "education": { "degree": "Licenciatura en Ingeniería en Computación", "school": "Instituto Politécnico Nacional (IPN)", "location": "Ciudad de México, México", "date": "2014 - 2018" },
+  "education": {
+    "degree": "Licenciatura en Ingeniería en Computación",
+    "school": "Instituto Politécnico Nacional (IPN)",
+    "location": "Ciudad de México, México",
+    "date": "2014 - 2018"
+  },
   "dataportfolio": [
     {
       "title": "Rakuten Ichiba",
-      "description": "Desarrollo soluciones frontend y BFF con Node.js para Rakuten Ichiba. Rediseñé el historial de compras, incorporé localización en inglés, chino y coreano en su experiencia renderizada en el servidor y lancé más de 20 componentes de UI reutilizables. También contribuí a Social Gift desde la arquitectura hasta el lanzamiento y el soporte posterior, con responsabilidades en pruebas, coordinación de lanzamientos y confiabilidad en producción.",
+      "description": "Desarrollo experiencias web para clientes de Rakuten Ichiba con React, TypeScript y Node.js. Me enfoco en componentes reutilizables, usabilidad, localización y rendimiento frontend en escritorio y móvil, colaborando con equipos de producto, diseño e ingeniería.",
       "link": "https://www.rakuten.co.jp/"
     },
     {
@@ -221,11 +281,46 @@
     }
   ],
   "contact": {
-    "pageTitle": "Contacto", "email": "gerardomdnr@gmail.com", "emailLabel": "Correo electrónico", "eyebrow": "¿Tienes un proyecto en mente?", "invitation": "Construyamos algo valioso juntos.", "description": "Siempre estoy abierto a conversar sobre productos con propósito, retos de ingeniería ambiciosos u oportunidades para crear grandes experiencias para los usuarios.", "emailCta": "Envíame un correo"
+    "pageTitle": "Contacto",
+    "email": "gerardomdnr@gmail.com",
+    "emailLabel": "Correo electrónico",
+    "eyebrow": "¿Tienes un proyecto en mente?",
+    "invitation": "Construyamos algo valioso juntos.",
+    "description": "Siempre estoy abierto a conversar sobre productos con propósito, retos de ingeniería ambiciosos u oportunidades para crear grandes experiencias para los usuarios.",
+    "emailCta": "Envíame un correo"
   },
-  "blog": { "pageTitle": "Blog", "description": "Artículos sobre ingeniería de software, React, TypeScript, arquitectura frontend, accesibilidad, automatización e IA.", "noPosts": "Aún no hay publicaciones. Vuelve pronto.", "readMore": "Leer más", "backToBlog": "Volver al Blog" },
-  "portfolio": { "pageTitle": "Trabajo destacado", "intro": "Una selección de productos y plataformas donde contribuí a generar resultados relevantes para usuarios y equipos de ingeniería.", "viewProject": "Visitar producto", "githubTitle": "Perfil open source", "githubDescription": "Una muestra de mi trabajo público, experimentos e intereses técnicos actuales.", "viewGithub": "Ver perfil de GitHub", "publicRepos": "Repositorios", "followers": "Seguidores", "following": "Siguiendo", "reposTitle": "Repositorios recientes", "reposDescription": "Una selección de repositorios públicos actualizados recientemente.", "loadingRepos": "Cargando repositorios…", "reposUnavailable": "Los repositorios no están disponibles temporalmente.", "noRepos": "No hay repositorios públicos para mostrar.", "viewRepo": "Ver repositorio", "noDescription": "Sin descripción disponible" },
-  "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
-  "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Conecta" },
-  "meta": { "title": "Gerardo Medina Romero | Ingeniero Frontend Senior", "description": "Ingeniero Frontend Senior en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA." }
+  "blog": {
+    "pageTitle": "Blog",
+    "description": "Artículos sobre ingeniería de software, React, TypeScript, arquitectura frontend, accesibilidad, automatización e IA.",
+    "noPosts": "Aún no hay publicaciones. Vuelve pronto.",
+    "readMore": "Leer más",
+    "backToBlog": "Volver al Blog"
+  },
+  "portfolio": {
+    "pageTitle": "Trabajo destacado",
+    "intro": "Una selección de productos y plataformas donde contribuí a generar resultados relevantes para usuarios y equipos de ingeniería.",
+    "viewProject": "Visitar producto",
+    "githubTitle": "Perfil open source",
+    "githubDescription": "Una muestra de mi trabajo público, experimentos e intereses técnicos actuales.",
+    "viewGithub": "Ver perfil de GitHub",
+    "publicRepos": "Repositorios",
+    "followers": "Seguidores",
+    "following": "Siguiendo",
+    "reposTitle": "Repositorios destacados",
+    "reposDescription": "Una selección de mis proyectos públicos.",
+    "viewRepo": "Ver repositorio",
+    "noDescription": "Sin descripción disponible"
+  },
+  "social": {
+    "github": "https://github.com/gerardomdn",
+    "linkedin": "https://www.linkedin.com/in/gerardomdnr"
+  },
+  "footer": {
+    "copyright": "© Gerardo Medina Romero",
+    "followMe": "Conecta"
+  },
+  "meta": {
+    "title": "Gerardo Medina Romero | Ingeniero Frontend Senior",
+    "description": "Ingeniero Frontend Senior en Tokio con más de 8 años de experiencia en React, TypeScript, arquitectura frontend, Node.js, automatización e IA."
+  }
 }

@@ -1,17 +1,34 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "navigation": "Main navigation", "languageSelector": "Language selector", "switchToLight": "Switch to light theme", "switchToDark": "Switch to dark theme", "openMenu": "Open navigation menu", "closeMenu": "Close navigation menu" },
-  "nav": { "home": "Home", "about": "About", "portfolio": "Experience", "blog": "Blog", "contact": "Contact" },
+  "accessibility": {
+    "navigation": "Main navigation",
+    "languageSelector": "Language selector",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Experience",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
   "home": {
-    "design": {"location": "Based in Tokyo · Made in Mexico", "headline": "Built with care.", "accent": "Made to matter.", "artLabel": "Custom Gerardo monogram with intersecting orbits, connecting Mexico and Japan", "artCaption": "Different places. One perspective.", "architecture": "FRONTEND ARCHITECTURE", "accessibility": "ACCESSIBILITY", "chapter": "Work in the real world", "story": "The story so far"},
-    "title": "I'm Gerardo Medina Romero",
+    "design": {
+      "location": "Based in Tokyo · Made in Mexico",
+      "artLabel": "Custom Gerardo monogram with intersecting orbits, connecting Mexico and Japan",
+      "artCaption": "Different places. One perspective.",
+      "architecture": "FRONTEND ARCHITECTURE",
+      "accessibility": "ACCESSIBILITY",
+      "chapter": "Work in the real world",
+      "story": "The story so far"
+    },
     "animated": {
-      "first": "Senior Frontend Engineer",
-      "second": "React & TypeScript specialist",
-      "third": "I build software at scale"
+      "first": "Senior Frontend Engineer"
     },
     "description": "Senior Frontend Engineer with 8+ years of experience building scalable web applications for global products used by millions. I specialize in React, TypeScript, frontend architecture, and full-stack development with Node.js.",
-    "yourImgUrl": "",
     "btnPortfolio": "View Experience",
     "btnContact": "Contact Me"
   },
@@ -24,9 +41,7 @@
     "servicesTitle": "What I Do",
     "educationTitle": "Education",
     "languagesTitle": "Languages & Location",
-    "technologiesLabel": "Technologies",
-    "workAuthorization": "Based in Tokyo with valid authorization to work in Japan.",
-    "environmentLabel": "Platform environment"
+    "technologiesLabel": "Technologies"
   },
   "worktimeline": [
     {
@@ -36,51 +51,20 @@
       "location": "Tokyo, Japan",
       "date": "2024 - Present",
       "highlights": [
-        "Develop frontend and Backend-for-Frontend (BFF) solutions for Rakuten Ichiba using React, TypeScript, Node.js, Redux, and REST APIs.",
-        "Redesigned and optimized Purchase History for better usability, maintainability, and frontend performance; added English, Chinese, and Korean localization to server-rendered experiences.",
-        "Contributed to Social Gift from architecture and implementation through production release and post-launch support.",
-        "Built and shipped 20+ reusable UI components for consistent desktop and mobile experiences.",
-        "Own features from technical investigation and specification through integration testing, QA, UAT support, release coordination, and production support; support major sales events with performance and load testing and production monitoring.",
-        "Developed an AI-powered pull request reviewer to improve code quality and reduce manual review effort."
+        "Develop customer-facing web experiences for Rakuten Ichiba using React, TypeScript, and Node.js.",
+        "Improve usability, accessibility, localization, and frontend performance across desktop and mobile experiences.",
+        "Build reusable UI components and collaborate with product, design, and engineering teams.",
+        "Contribute throughout development, testing, release, and ongoing product support."
       ],
-      "technologyGroups": [
-        {
-          "label": "Frontend & BFF",
-          "items": [
-            "React",
-            "TypeScript",
-            "JavaScript",
-            "Node.js",
-            "Express.js",
-            "Redux",
-            "REST APIs",
-            "SSR",
-            "i18n"
-          ]
-        },
-        {
-          "label": "Testing & quality",
-          "items": [
-            "Jest",
-            "Storybook",
-            "Visual Regression Testing",
-            "Performance Testing",
-            "Load Testing"
-          ]
-        },
-        {
-          "label": "Delivery & collaboration",
-          "items": [
-            "Docker",
-            "Bitbucket",
-            "Jenkins",
-            "CI/CD",
-            "Jira",
-            "Confluence"
-          ]
-        }
-      ],
-      "environment": "Work within a large-scale e-commerce platform, collaborating across frontend and backend teams and supporting containerized delivery, production monitoring, and incident response."
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Redux",
+        "REST APIs",
+        "Jest",
+        "Docker"
+      ]
     },
     {
       "jobtitle": "Software Engineer",
@@ -116,7 +100,7 @@
       "location": "Mexico",
       "date": "2021 - 2022",
       "highlights": [
-        "Delivered frontend features for an enterprise recruitment platform supporting SoFi.",
+        "Developed frontend features and reusable components for an enterprise recruitment platform.",
         "Improved maintainability through reusable components and API integrations."
       ],
       "technologies": [
@@ -138,7 +122,7 @@
       "location": "Mexico",
       "date": "2020 - 2021",
       "highlights": [
-        "Delivered scalable candidate-screening workflows for Sterling's enterprise recruitment software.",
+        "Built frontend and backend functionality for enterprise candidate-screening workflows.",
         "Built frontend and backend product functionality with distributed engineering teams."
       ],
       "technologies": [
@@ -197,16 +181,81 @@
     }
   ],
   "skills": [
-    { "category": "Frontend", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
-    { "category": "Backend & APIs", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
-    { "category": "Testing & Quality", "items": ["Jest", "Accessibility", "Screen readers", "High-contrast UI", "Code review"] },
-    { "category": "Architecture & Delivery", "items": ["Frontend architecture", "Design systems", "Performance", "Authentication", "CI/CD", "Grafana", "Azure DevOps"] }
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Redux",
+        "Angular",
+        "Vue",
+        "Sass"
+      ]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "GraphQL",
+        "SQL",
+        "MongoDB",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "Testing & Quality",
+      "items": [
+        "Jest",
+        "Accessibility",
+        "Screen readers",
+        "High-contrast UI",
+        "Code review"
+      ]
+    },
+    {
+      "category": "Architecture & Delivery",
+      "items": [
+        "Frontend architecture",
+        "Design systems",
+        "Performance",
+        "Authentication",
+        "CI/CD",
+        "Grafana",
+        "Azure DevOps"
+      ]
+    }
   ],
-  "languages": [{ "name": "Spanish", "level": "Native" }, { "name": "English", "level": "Business proficiency" }, { "name": "Japanese", "level": "Elementary working proficiency" }],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Business proficiency"
+    },
+    {
+      "name": "Japanese",
+      "level": "Elementary working proficiency"
+    }
+  ],
   "services": [
-    { "title": "Scalable Frontend Engineering", "description": "I design and deliver maintainable React and TypeScript applications, reusable component systems, and frontend architectures for products used at enterprise scale." },
-    { "title": "Full-stack Product Development", "description": "I build customer-facing experiences end to end with Next.js, Node.js, Express, GraphQL, and relational or document databases, working closely with product, design, backend, and QA teams." },
-    { "title": "Automation, AI & Quality", "description": "I improve engineering workflows through automation and AI, with a strong focus on testing, accessibility, localization, observability, performance, and code quality." }
+    {
+      "title": "Scalable Frontend Engineering",
+      "description": "I design and deliver maintainable React and TypeScript applications, reusable component systems, and frontend architectures for products used at enterprise scale."
+    },
+    {
+      "title": "Full-stack Product Development",
+      "description": "I build customer-facing experiences end to end with Next.js, Node.js, Express, GraphQL, and relational or document databases, working closely with product, design, backend, and QA teams."
+    },
+    {
+      "title": "Automation, AI & Quality",
+      "description": "I improve engineering workflows through automation and AI, with a strong focus on testing, accessibility, localization, observability, performance, and code quality."
+    }
   ],
   "education": {
     "degree": "Bachelor of Science in Computer Engineering",
@@ -217,7 +266,7 @@
   "dataportfolio": [
     {
       "title": "Rakuten Ichiba",
-      "description": "I develop frontend and Node.js BFF solutions for Rakuten Ichiba. I redesigned Purchase History, added English, Chinese, and Korean localization to its server-rendered experience, and shipped 20+ reusable UI components. I also contributed to Social Gift from architecture through launch and post-launch support, with responsibilities spanning testing, release coordination, and production reliability.",
+      "description": "I build customer-facing web experiences for Rakuten Ichiba with React, TypeScript, and Node.js. My work focuses on reusable components, usability, localization, and frontend performance across desktop and mobile, collaborating with product, design, and engineering teams.",
       "link": "https://www.rakuten.co.jp/"
     },
     {
@@ -240,9 +289,38 @@
     "description": "I’m always happy to discuss thoughtful products, ambitious engineering challenges, or opportunities to create a great experience for users.",
     "emailCta": "Send me an email"
   },
-  "blog": { "pageTitle": "Blog", "description": "Articles about software engineering, React, TypeScript, frontend architecture, accessibility, automation, and AI.", "noPosts": "No posts yet. Check back soon!", "readMore": "Read more", "backToBlog": "Back to Blog" },
-  "portfolio": { "pageTitle": "Selected Work", "intro": "A selection of products and platforms where I contributed to meaningful customer and engineering outcomes.", "viewProject": "Visit product", "githubTitle": "Open-source profile", "githubDescription": "A snapshot of my public work, experiments, and ongoing technical interests.", "viewGithub": "View GitHub profile", "publicRepos": "Public repos", "followers": "Followers", "following": "Following", "reposTitle": "Recent repositories", "reposDescription": "A selection of recently updated public repositories.", "loadingRepos": "Loading repositories…", "reposUnavailable": "Repositories are temporarily unavailable.", "noRepos": "No public repositories to display.", "viewRepo": "View repository", "noDescription": "No description available" },
-  "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
-  "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "Connect" },
-  "meta": { "title": "Gerardo Medina Romero | Senior Frontend Engineer", "description": "Senior Frontend Engineer in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI." }
+  "blog": {
+    "pageTitle": "Blog",
+    "description": "Articles about software engineering, React, TypeScript, frontend architecture, accessibility, automation, and AI.",
+    "noPosts": "No posts yet. Check back soon!",
+    "readMore": "Read more",
+    "backToBlog": "Back to Blog"
+  },
+  "portfolio": {
+    "pageTitle": "Selected Work",
+    "intro": "A selection of products and platforms where I contributed to meaningful customer and engineering outcomes.",
+    "viewProject": "Visit product",
+    "githubTitle": "Open-source profile",
+    "githubDescription": "A snapshot of my public work, experiments, and ongoing technical interests.",
+    "viewGithub": "View GitHub profile",
+    "publicRepos": "Public repos",
+    "followers": "Followers",
+    "following": "Following",
+    "reposTitle": "Selected repositories",
+    "reposDescription": "A curated selection of my public projects.",
+    "viewRepo": "View repository",
+    "noDescription": "No description available"
+  },
+  "social": {
+    "github": "https://github.com/gerardomdn",
+    "linkedin": "https://www.linkedin.com/in/gerardomdnr"
+  },
+  "footer": {
+    "copyright": "© Gerardo Medina Romero",
+    "followMe": "Connect"
+  },
+  "meta": {
+    "title": "Gerardo Medina Romero | Senior Frontend Engineer",
+    "description": "Senior Frontend Engineer in Tokyo with 8+ years of experience in React, TypeScript, frontend architecture, Node.js, automation, and AI."
+  }
 }

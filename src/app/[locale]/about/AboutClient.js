@@ -35,16 +35,7 @@ export default function AboutClient() {
                 <span className="experience-location">{data.location}</span>
               </summary>
               <ul>{data.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
-              {data.technologyGroups ? (
-                <div className="experience-stack">
-                  {data.technologyGroups.map((group) => (
-                    <p className="experience-tech" key={group.label}><strong>{group.label}:</strong> {group.items.join(" · ")}</p>
-                  ))}
-                </div>
-              ) : (
-                <p className="experience-tech"><strong>{t("about.technologiesLabel")}:</strong> {data.technologies.join(" · ")}</p>
-              )}
-              {data.environment && <p className="experience-tech"><strong>{t("about.environmentLabel")}:</strong> {data.environment}</p>}
+              <p className="experience-tech"><strong>{t("about.technologiesLabel")}:</strong> {data.technologies.join(" · ")}</p>
             </details>
           ))}
         </Col>
@@ -73,11 +64,10 @@ export default function AboutClient() {
           <div className="language-grid">
             {languages.map((language) => <div key={language.name}><strong>{language.name}</strong><span>{language.level}</span></div>)}
           </div>
-          <p className="work-authorization">{t("about.workAuthorization")}</p>
         </Col>
       </Row>
       <Row className="sec_sp">
-        <Col lang="5"><h3 className="color_sec py-4">{t("about.servicesTitle")}</h3></Col>
+        <Col lg="5"><h3 className="color_sec py-4">{t("about.servicesTitle")}</h3></Col>
         <Col lg="7">
           {servicesList.map((data, i) => (
             <div className="service_ py-4" key={i}><h5 className="service__title">{data.title}</h5><p className="service_desc">{data.description}</p></div>

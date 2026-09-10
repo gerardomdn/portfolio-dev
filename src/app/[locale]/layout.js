@@ -32,7 +32,7 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} data-scroll-behavior="smooth">
       <body>
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={{ accessibility: messages.accessibility, nav: messages.nav, footer: messages.footer, social: messages.social }}>
           <ThemeProvider>
             <Headermain />
             <div className="s_c">

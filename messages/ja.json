@@ -1,13 +1,36 @@
 {
   "logotext": "gerardomdn",
-  "accessibility": { "navigation": "メインナビゲーション", "languageSelector": "言語選択", "switchToLight": "ライトテーマに切り替える", "switchToDark": "ダークテーマに切り替える", "openMenu": "ナビゲーションメニューを開く", "closeMenu": "ナビゲーションメニューを閉じる" },
-  "nav": { "home": "ホーム", "about": "プロフィール", "portfolio": "経歴", "blog": "ブログ", "contact": "お問い合わせ" },
+  "accessibility": {
+    "navigation": "メインナビゲーション",
+    "languageSelector": "言語選択",
+    "switchToLight": "ライトテーマに切り替える",
+    "switchToDark": "ダークテーマに切り替える",
+    "openMenu": "ナビゲーションメニューを開く",
+    "closeMenu": "ナビゲーションメニューを閉じる"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "プロフィール",
+    "portfolio": "経歴",
+    "blog": "ブログ",
+    "contact": "お問い合わせ"
+  },
   "home": {
-    "design": {"location": "東京を拠点に · メキシコ出身", "headline": "丁寧につくる。", "accent": "価値を届ける。", "artLabel": "メキシコと日本を結ぶ軌道とジェラルドのモノグラム", "artCaption": "異なる場所。ひとつの視点。", "architecture": "フロントエンド設計", "accessibility": "アクセシビリティ", "chapter": "実際のプロダクト", "story": "これまでの歩み"},
-    "title": "Gerardo Medina Romeroです",
-    "animated": { "first": "シニアフロントエンドエンジニア", "second": "React・TypeScriptスペシャリスト", "third": "大規模なソフトウェアを開発します" },
+    "design": {
+      "location": "東京を拠点に · メキシコ出身",
+      "artLabel": "メキシコと日本を結ぶ軌道とジェラルドのモノグラム",
+      "artCaption": "異なる場所。ひとつの視点。",
+      "architecture": "フロントエンド設計",
+      "accessibility": "アクセシビリティ",
+      "chapter": "実際のプロダクト",
+      "story": "これまでの歩み"
+    },
+    "animated": {
+      "first": "シニアフロントエンドエンジニア"
+    },
     "description": "世界中で数百万人が利用するスケーラブルなWebアプリケーションの開発に8年以上携わってきたシニアフロントエンドエンジニアです。React、TypeScript、フロントエンドアーキテクチャ、Node.jsを用いたフルスタック開発を得意としています。",
-    "yourImgUrl": "", "btnPortfolio": "経歴を見る", "btnContact": "お問い合わせ"
+    "btnPortfolio": "経歴を見る",
+    "btnContact": "お問い合わせ"
   },
   "about": {
     "pageTitle": "プロフィール",
@@ -18,9 +41,7 @@
     "servicesTitle": "得意分野",
     "educationTitle": "学歴",
     "languagesTitle": "言語・所在地",
-    "technologiesLabel": "使用技術",
-    "workAuthorization": "東京在住。日本での有効な就労資格を保有しています。",
-    "environmentLabel": "プラットフォーム環境"
+    "technologiesLabel": "使用技術"
   },
   "worktimeline": [
     {
@@ -30,51 +51,20 @@
       "location": "東京、日本",
       "date": "2024年 - 現在",
       "highlights": [
-        "React、TypeScript、Node.js、Redux、REST APIを用いて、楽天市場のフロントエンドおよびBackend-for-Frontend（BFF）を開発しています。",
-        "購入履歴を再設計・最適化し、使いやすさ、保守性、フロントエンドのパフォーマンスを改善しました。サーバーサイドレンダリングされた画面に英語・中国語・韓国語のローカライゼーションを実装しました。",
-        "ソーシャルギフトの設計・実装から本番リリース、リリース後のサポートまで貢献しました。",
-        "デスクトップとモバイルで一貫した体験を提供するため、20以上の再利用可能なUIコンポーネントを開発・リリースしました。",
-        "技術調査・仕様策定から結合テスト、QA、UAT支援、リリース調整、本番運用サポートまで担当しています。大型セール時には性能・負荷テストと本番監視を通じて安定稼働を支えています。",
-        "コード品質の向上と手動レビューの負担軽減のため、AIを活用したプルリクエストレビューツールを開発しました。"
+        "React、TypeScript、Node.jsを用いて、楽天市場の顧客向けWeb体験を開発しています。",
+        "デスクトップとモバイルの使いやすさ、アクセシビリティ、多言語対応、フロントエンドのパフォーマンスを改善しています。",
+        "再利用可能なUIコンポーネントを開発し、プロダクト・デザイン・エンジニアリングの各チームと連携しています。",
+        "開発、テスト、リリース、継続的なプロダクトサポートに携わっています。"
       ],
-      "technologyGroups": [
-        {
-          "label": "フロントエンド・BFF",
-          "items": [
-            "React",
-            "TypeScript",
-            "JavaScript",
-            "Node.js",
-            "Express.js",
-            "Redux",
-            "REST APIs",
-            "SSR",
-            "i18n"
-          ]
-        },
-        {
-          "label": "テスト・品質",
-          "items": [
-            "Jest",
-            "Storybook",
-            "Visual Regression Testing",
-            "Performance Testing",
-            "Load Testing"
-          ]
-        },
-        {
-          "label": "デリバリー・コラボレーション",
-          "items": [
-            "Docker",
-            "Bitbucket",
-            "Jenkins",
-            "CI/CD",
-            "Jira",
-            "Confluence"
-          ]
-        }
-      ],
-      "environment": "大規模ECプラットフォームにおいて、フロントエンド・バックエンドの各チームと連携し、コンテナを利用したデリバリー、本番監視、インシデント対応を支えています。"
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Redux",
+        "REST APIs",
+        "Jest",
+        "Docker"
+      ]
     },
     {
       "jobtitle": "ソフトウェアエンジニア",
@@ -110,7 +100,7 @@
       "location": "メキシコ",
       "date": "2021年 - 2022年",
       "highlights": [
-        "SoFiを支援するエンタープライズ採用プラットフォームの機能を開発しました。",
+        "企業向け採用プラットフォームのフロントエンド機能と再利用可能なコンポーネントを開発しました。",
         "再利用可能なコンポーネントとAPI連携により保守性を向上しました。"
       ],
       "technologies": [
@@ -132,7 +122,7 @@
       "location": "メキシコ",
       "date": "2020年 - 2021年",
       "highlights": [
-        "Sterlingの法人向け採用ソフトウェアにおける候補者スクリーニングフローを開発しました。",
+        "企業向け候補者スクリーニングのフロントエンド・バックエンド機能を開発しました。",
         "分散型チームと協働し、フロントエンドとバックエンドの機能を実装しました。"
       ],
       "technologies": [
@@ -191,22 +181,92 @@
     }
   ],
   "skills": [
-    { "category": "フロントエンド", "items": ["React", "TypeScript", "JavaScript", "Next.js", "Redux", "Angular", "Vue", "Sass"] },
-    { "category": "バックエンド・API", "items": ["Node.js", "Express.js", "GraphQL", "SQL", "MongoDB", "MySQL", "Firebase"] },
-    { "category": "テスト・品質", "items": ["Jest", "アクセシビリティ", "スクリーンリーダー", "ハイコントラストUI", "コードレビュー"] },
-    { "category": "アーキテクチャ・デリバリー", "items": ["フロントエンド設計", "デザインシステム", "パフォーマンス", "認証", "CI/CD", "Grafana", "Azure DevOps"] }
+    {
+      "category": "フロントエンド",
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Redux",
+        "Angular",
+        "Vue",
+        "Sass"
+      ]
+    },
+    {
+      "category": "バックエンド・API",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "GraphQL",
+        "SQL",
+        "MongoDB",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "category": "テスト・品質",
+      "items": [
+        "Jest",
+        "アクセシビリティ",
+        "スクリーンリーダー",
+        "ハイコントラストUI",
+        "コードレビュー"
+      ]
+    },
+    {
+      "category": "アーキテクチャ・デリバリー",
+      "items": [
+        "フロントエンド設計",
+        "デザインシステム",
+        "パフォーマンス",
+        "認証",
+        "CI/CD",
+        "Grafana",
+        "Azure DevOps"
+      ]
+    }
   ],
-  "languages": [{ "name": "スペイン語", "level": "母語" }, { "name": "英語", "level": "ビジネスレベル" }, { "name": "日本語", "level": "初級実務レベル" }],
+  "languages": [
+    {
+      "name": "スペイン語",
+      "level": "母語"
+    },
+    {
+      "name": "英語",
+      "level": "ビジネスレベル"
+    },
+    {
+      "name": "日本語",
+      "level": "初級実務レベル"
+    }
+  ],
   "services": [
-    { "title": "スケーラブルなフロントエンド開発", "description": "ReactとTypeScriptを用いた保守性の高いアプリケーション、再利用可能なコンポーネントシステム、エンタープライズ規模のフロントエンドアーキテクチャを設計・開発します。" },
-    { "title": "フルスタックプロダクト開発", "description": "プロダクト、デザイン、バックエンド、QAチームと連携し、Next.js、Node.js、Express、GraphQL、リレーショナル／ドキュメントデータベースを用いて顧客向け体験を一貫して構築します。" },
-    { "title": "自動化・AI・品質向上", "description": "テスト、アクセシビリティ、ローカライゼーション、オブザーバビリティ、パフォーマンス、コード品質を重視し、自動化とAIによって開発ワークフローを改善します。" }
+    {
+      "title": "スケーラブルなフロントエンド開発",
+      "description": "ReactとTypeScriptを用いた保守性の高いアプリケーション、再利用可能なコンポーネントシステム、エンタープライズ規模のフロントエンドアーキテクチャを設計・開発します。"
+    },
+    {
+      "title": "フルスタックプロダクト開発",
+      "description": "プロダクト、デザイン、バックエンド、QAチームと連携し、Next.js、Node.js、Express、GraphQL、リレーショナル／ドキュメントデータベースを用いて顧客向け体験を一貫して構築します。"
+    },
+    {
+      "title": "自動化・AI・品質向上",
+      "description": "テスト、アクセシビリティ、ローカライゼーション、オブザーバビリティ、パフォーマンス、コード品質を重視し、自動化とAIによって開発ワークフローを改善します。"
+    }
   ],
-  "education": { "degree": "コンピューター工学学士", "school": "メキシコ国立工科大学（IPN）", "location": "メキシコ・メキシコシティ", "date": "2014年 - 2018年" },
+  "education": {
+    "degree": "コンピューター工学学士",
+    "school": "メキシコ国立工科大学（IPN）",
+    "location": "メキシコ・メキシコシティ",
+    "date": "2014年 - 2018年"
+  },
   "dataportfolio": [
     {
       "title": "楽天市場",
-      "description": "楽天市場のフロントエンドとNode.jsによるBFFを開発しています。購入履歴を再設計し、サーバーサイドレンダリングされた画面に英語・中国語・韓国語対応を追加したほか、20以上の再利用可能なUIコンポーネントをリリースしました。ソーシャルギフトの設計からリリース後のサポートにも貢献し、テスト、リリース調整、本番環境の安定稼働まで担当しています。",
+      "description": "React、TypeScript、Node.jsを用いて楽天市場の顧客向けWeb体験を開発しています。プロダクト・デザイン・エンジニアリングの各チームと連携し、デスクトップとモバイル向けの再利用可能なコンポーネント、使いやすさ、多言語対応、フロントエンドのパフォーマンス改善に取り組んでいます。",
       "link": "https://www.rakuten.co.jp/"
     },
     {
@@ -221,11 +281,46 @@
     }
   ],
   "contact": {
-    "pageTitle": "お問い合わせ", "email": "gerardomdnr@gmail.com", "emailLabel": "メールアドレス", "eyebrow": "プロジェクトのご相談", "invitation": "一緒に価値あるものをつくりましょう。", "description": "意義のあるプロダクト、挑戦的なエンジニアリング課題、優れたユーザー体験を生み出す機会について、ぜひお気軽にご相談ください。", "emailCta": "メールを送る"
+    "pageTitle": "お問い合わせ",
+    "email": "gerardomdnr@gmail.com",
+    "emailLabel": "メールアドレス",
+    "eyebrow": "プロジェクトのご相談",
+    "invitation": "一緒に価値あるものをつくりましょう。",
+    "description": "意義のあるプロダクト、挑戦的なエンジニアリング課題、優れたユーザー体験を生み出す機会について、ぜひお気軽にご相談ください。",
+    "emailCta": "メールを送る"
   },
-  "blog": { "pageTitle": "ブログ", "description": "ソフトウェアエンジニアリング、React、TypeScript、フロントエンドアーキテクチャ、アクセシビリティ、自動化、AIに関する記事です。", "noPosts": "記事はまだありません。近日公開予定です。", "readMore": "続きを読む", "backToBlog": "ブログに戻る" },
-  "portfolio": { "pageTitle": "主な実績", "intro": "ユーザーと開発チームに有意義な成果をもたらしたプロダクトとプラットフォームの一部をご紹介します。", "viewProject": "プロダクトを見る", "githubTitle": "オープンソースプロフィール", "githubDescription": "公開中の成果物、実験、現在の技術的関心をご紹介します。", "viewGithub": "GitHubプロフィールを見る", "publicRepos": "公開リポジトリ", "followers": "フォロワー", "following": "フォロー中", "reposTitle": "最近のリポジトリ", "reposDescription": "最近更新された公開リポジトリの一部です。", "loadingRepos": "リポジトリを読み込んでいます…", "reposUnavailable": "リポジトリは一時的に利用できません。", "noRepos": "表示できる公開リポジトリはありません。", "viewRepo": "リポジトリを見る", "noDescription": "説明はありません" },
-  "social": { "github": "https://github.com/gerardomdn", "linkedin": "https://www.linkedin.com/in/gerardomdnr" },
-  "footer": { "copyright": "© Gerardo Medina Romero", "followMe": "つながる" },
-  "meta": { "title": "Gerardo Medina Romero | シニアフロントエンドエンジニア", "description": "東京を拠点に、React、TypeScript、フロントエンドアーキテクチャ、Node.js、自動化、AIの分野で8年以上の経験を持つシニアフロントエンドエンジニアです。" }
+  "blog": {
+    "pageTitle": "ブログ",
+    "description": "ソフトウェアエンジニアリング、React、TypeScript、フロントエンドアーキテクチャ、アクセシビリティ、自動化、AIに関する記事です。",
+    "noPosts": "記事はまだありません。近日公開予定です。",
+    "readMore": "続きを読む",
+    "backToBlog": "ブログに戻る"
+  },
+  "portfolio": {
+    "pageTitle": "主な実績",
+    "intro": "ユーザーと開発チームに有意義な成果をもたらしたプロダクトとプラットフォームの一部をご紹介します。",
+    "viewProject": "プロダクトを見る",
+    "githubTitle": "オープンソースプロフィール",
+    "githubDescription": "公開中の成果物、実験、現在の技術的関心をご紹介します。",
+    "viewGithub": "GitHubプロフィールを見る",
+    "publicRepos": "公開リポジトリ",
+    "followers": "フォロワー",
+    "following": "フォロー中",
+    "reposTitle": "主なリポジトリ",
+    "reposDescription": "公開プロジェクトから選んだ成果物をご紹介します。",
+    "viewRepo": "リポジトリを見る",
+    "noDescription": "説明はありません"
+  },
+  "social": {
+    "github": "https://github.com/gerardomdn",
+    "linkedin": "https://www.linkedin.com/in/gerardomdnr"
+  },
+  "footer": {
+    "copyright": "© Gerardo Medina Romero",
+    "followMe": "つながる"
+  },
+  "meta": {
+    "title": "Gerardo Medina Romero | シニアフロントエンドエンジニア",
+    "description": "東京を拠点に、React、TypeScript、フロントエンドアーキテクチャ、Node.js、自動化、AIの分野で8年以上の経験を持つシニアフロントエンドエンジニアです。"
+  }
 }
