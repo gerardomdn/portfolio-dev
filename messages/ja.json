@@ -74,7 +74,7 @@
           ]
         }
       ],
-      "environment": "プラットフォーム全体では、フロントエンドにCORALを使用し、Rakuten One Cloud上でApache HTTP ServerとDockerを利用しています。バックエンドはJava 21・Spring Boot、ビルドにはGradleを使用しています。監視・インシデント対応にはGrafana、Kibana、ElastAlert、R-Bellを利用しています。"
+      "environment": "大規模ECプラットフォームにおいて、フロントエンド・バックエンドの各チームと連携し、コンテナを利用したデリバリー、本番監視、インシデント対応を支えています。"
     },
     {
       "jobtitle": "ソフトウェアエンジニア",

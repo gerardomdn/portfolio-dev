@@ -29,8 +29,10 @@ export default function AboutClient() {
           {worktimeline.map((data, i) => (
             <details className="experience-card" key={i} open={i === 0}>
               <summary>
-                <span><strong>{data.jobtitle}</strong><a href={data.url} target="_blank" rel="noopener noreferrer" onClick={(event) => event.stopPropagation()}>{data.where}</a></span>
-                <span className="experience-meta">{data.location} · {data.date}</span>
+                <strong className="experience-role">{data.jobtitle}</strong>
+                <span className="experience-date">{data.date}</span>
+                <a className="experience-company" href={data.url} target="_blank" rel="noopener noreferrer" onClick={(event) => event.stopPropagation()}>{data.where}</a>
+                <span className="experience-location">{data.location}</span>
               </summary>
               <ul>{data.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}</ul>
               {data.technologyGroups ? (

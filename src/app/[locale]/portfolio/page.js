@@ -1,3 +1,4 @@
+import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import PortfolioClient from "./PortfolioClient";
 
@@ -8,7 +9,7 @@ export async function generateMetadata({ params }) {
     title: `${t("portfolio.pageTitle")} | ${t("meta.title")}`,
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en/portfolio", es: "/es/portfolio", ja: "/ja/portfolio" },
+      languages: languageAlternates("/portfolio"),
     },
   };
 }

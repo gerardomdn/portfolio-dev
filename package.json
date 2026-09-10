@@ -21,8 +21,8 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "start": "next start",
-        "postbuild": "next-sitemap"
+        "start": "python3 -m http.server 3000 --directory out",
+        "postbuild": "next-sitemap && node scripts/finalize-export.mjs"
     },
     "devDependencies": {
         "gh-pages": "^6.2.0"

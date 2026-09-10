@@ -1,3 +1,4 @@
+import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import ContactClient from "./ContactClient";
 
@@ -8,7 +9,7 @@ export async function generateMetadata({ params }) {
     title: `${t("contact.pageTitle")} | ${t("meta.title")}`,
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en/contact", es: "/es/contact", ja: "/ja/contact" },
+      languages: languageAlternates("/contact"),
     },
   };
 }

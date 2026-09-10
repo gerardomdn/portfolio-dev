@@ -1,3 +1,4 @@
+import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import HomeClient from "./HomeClient";
 
@@ -8,7 +9,7 @@ export async function generateMetadata({ params }) {
     title: t("meta.title"),
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en", es: "/es", ja: "/ja" },
+      languages: languageAlternates(),
     },
   };
 }

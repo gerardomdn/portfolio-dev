@@ -1,3 +1,4 @@
+import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllPosts } from "@/lib/contentful";
 import "./blog.css";
@@ -10,7 +11,7 @@ export async function generateMetadata({ params }) {
     title: `${t("blog.pageTitle")} | ${t("meta.title")}`,
     description: t("blog.description"),
     alternates: {
-      languages: { en: "/en/blog", es: "/es/blog", ja: "/ja/blog" },
+      languages: languageAlternates("/blog"),
     },
   };
 }

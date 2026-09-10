@@ -80,7 +80,7 @@
           ]
         }
       ],
-      "environment": "The wider platform uses CORAL for frontend applications, Apache HTTP Server and Docker on Rakuten One Cloud, and Java 21 / Spring Boot services built with Gradle. Monitoring and incident-response tooling includes Grafana, Kibana, ElastAlert, and R-Bell."
+      "environment": "Work within a large-scale e-commerce platform, collaborating across frontend and backend teams and supporting containerized delivery, production monitoring, and incident response."
     },
     {
       "jobtitle": "Software Engineer",

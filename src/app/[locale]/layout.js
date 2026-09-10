@@ -1,10 +1,12 @@
+import { languageAlternates } from "@/lib/site";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Headermain from "@/header";
 import { Socialicons } from "@/components/socialicons";
 import ThemeProvider from "@/components/themetoggle/ThemeProvider";
-import Script from "next/script";
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -17,7 +19,7 @@ export async function generateMetadata({ params }) {
     title: t("meta.title"),
     description: t("meta.description"),
     alternates: {
-      languages: { en: "/en", es: "/es", ja: "/ja" },
+      languages: languageAlternates(),
     },
   };
 }
@@ -39,12 +41,6 @@ export default async function LocaleLayout({ children, params }) {
             </div>
           </ThemeProvider>
         </NextIntlClientProvider>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXX"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );

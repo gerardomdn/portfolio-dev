@@ -1,12 +1,18 @@
+import { languageAlternates } from "@/lib/site";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getPostBySlug, getAllSlugs } from "@/lib/contentful";
 import BlogPostClient from "./BlogPostClient";
 import "./post.css";
 
+export const dynamicParams = false;
+export const dynamic = "force-static";
+
 export async function generateStaticParams() {
   const slugs = await getAllSlugs();
-  return slugs.map((slug) => ({ slug }));
+  // Static export requires a parameter even when Contentful has no posts.
+  // This reserved route resolves to notFound(), never to a placeholder article.
+  return slugs.length ? slugs.map((slug) => ({ slug })) : [{ slug: "__empty__" }];
 }
 
 export async function generateMetadata({ params }) {
@@ -19,7 +25,7 @@ export async function generateMetadata({ params }) {
     description: post.excerpt,
     openGraph: { title: post.title, description: post.excerpt, images: post.coverImage ? [post.coverImage] : [] },
     alternates: {
-      languages: { en: `/en/blog/${slug}`, es: `/es/blog/${slug}`, ja: `/ja/blog/${slug}` },
+      languages: languageAlternates(`/blog/${slug}`),
     },
   };
 }
@@ -27,6 +33,7 @@ export async function generateMetadata({ params }) {
 export default async function BlogPostPage({ params }) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
+  if (slug === "__empty__") notFound();
   const post = await getPostBySlug(slug);
   if (!post) notFound();
 

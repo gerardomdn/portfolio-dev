@@ -2,7 +2,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { useLocale, useTranslations } from "next-intl";
 import PostContent from "@/components/blog/PostContent";
-import AdBanner from "@/components/blog/AdBanner";
 import { Link } from "@/i18n/navigation";
 
 export default function BlogPostClient({ post }) {
@@ -23,9 +22,7 @@ export default function BlogPostClient({ post }) {
             </div>
           </div>
           {post.coverImage && <img src={post.coverImage} alt={post.title} className="post-cover" />}
-          <AdBanner slot="YOUR_AD_SLOT_1" />
           <PostContent content={post.content} />
-          <AdBanner slot="YOUR_AD_SLOT_2" />
           <Link href="/blog" className="back-link">&larr; {t("blog.backToBlog")}</Link>
         </Col>
       </Row>
