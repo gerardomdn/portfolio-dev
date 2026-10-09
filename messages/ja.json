@@ -1,6 +1,7 @@
 {
   "logotext": "gerardomdn",
   "accessibility": {
+    "skipToContent": "本文へスキップ",
     "navigation": "メインナビゲーション",
     "languageSelector": "言語選択",
     "switchToLight": "ライトテーマに切り替える",

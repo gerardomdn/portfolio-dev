@@ -1,6 +1,7 @@
 {
   "logotext": "gerardomdn",
   "accessibility": {
+    "skipToContent": "Saltar al contenido",
     "navigation": "Navegación principal",
     "languageSelector": "Selector de idioma",
     "switchToLight": "Cambiar al tema claro",

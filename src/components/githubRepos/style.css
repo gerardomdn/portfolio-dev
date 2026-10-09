@@ -40,7 +40,6 @@
   color: var(--text-color);
   text-decoration: none;
   background: var(--bg-color);
-  border: solid 1px var(--text-color);
   align-self: flex-start;
   border: 0;
   border-bottom: 1px solid currentColor;

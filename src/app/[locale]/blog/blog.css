@@ -4,11 +4,13 @@
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   gap: 2rem;
 }
 
 .post-card {
+  min-width: 0;
+  overflow-wrap: anywhere;
   border: 1px solid var(--secondary-color);
   padding: 0;
   transition: 0.3s ease;
@@ -29,7 +31,7 @@
   padding: 1.5rem;
 }
 
-.post-card .card-body h3 {
+.post-card .card-body h2 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }

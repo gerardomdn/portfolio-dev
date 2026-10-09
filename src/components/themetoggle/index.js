@@ -9,15 +9,18 @@ const Themetoggle = () => {
   const t = useTranslations("accessibility");
 
   useEffect(() => {
-    const saved = localStorage.getItem("theme") || "dark";
-    setTheme(saved);
+    try {
+      const saved = localStorage.getItem("theme") === "light" ? "light" : "dark";
+      setTheme(saved);
+      document.documentElement.setAttribute("data-theme", saved);
+    } catch { /* Keep the default theme when storage is unavailable. */ }
   }, []);
 
   const toggle = () => {
     const next = theme === "dark" ? "light" : "dark";
     setTheme(next);
     document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("theme", next);
+    try { localStorage.setItem("theme", next); } catch { /* Theme still works without persistence. */ }
   };
 
   return (

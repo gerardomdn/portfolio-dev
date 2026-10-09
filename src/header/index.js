@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import "./style.css";
 import { Link, usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
@@ -8,13 +8,20 @@ import LanguageToggle from "@/components/languagetoggle";
 
 export default function Headermain() {
   const [open, setOpen] = useState(false);
+  const menuButton = useRef(null);
   const pathname = usePathname();
   const t = useTranslations();
-  return <header className="site__header">
+  return <header className="site__header" onKeyDown={(event) => {
+    if (event.key === "Escape" && open) {
+      setOpen(false);
+      menuButton.current?.focus();
+    }
+  }}>
+    <a className="skip-link" href="#main-content">{t("accessibility.skipToContent")}</a>
     <Link className="wordmark" href="/" onClick={() => setOpen(false)}>gerardo<b aria-hidden="true">✳</b></Link>
-    <nav id="main-navigation" aria-label={t("accessibility.navigation")} className={`main-nav ${open ? "is-open" : ""}`} onKeyDown={(event) => { if (event.key === "Escape") setOpen(false); }}>
+    <nav id="main-navigation" aria-label={t("accessibility.navigation")} className={`main-nav ${open ? "is-open" : ""}`}>
       {[["/", "home"], ["/portfolio", "portfolio"], ["/about", "about"], ["/blog", "blog"], ["/contact", "contact"]].map(([href, key]) => <Link href={href} key={key} aria-current={pathname === href ? "page" : undefined} onClick={() => setOpen(false)}>{t(`nav.${key}`)}</Link>)}
     </nav>
-    <div className="header-controls"><LanguageToggle /><Themetoggle /><button className="menu-toggle" aria-expanded={open} aria-controls="main-navigation" aria-label={t(open ? "accessibility.closeMenu" : "accessibility.openMenu")} onClick={() => setOpen(!open)}>{open ? "×" : "☰"}</button></div>
+    <div className="header-controls"><LanguageToggle /><Themetoggle /><button ref={menuButton} type="button" className="menu-toggle" aria-expanded={open} aria-controls="main-navigation" aria-label={t(open ? "accessibility.closeMenu" : "accessibility.openMenu")} onClick={() => setOpen(!open)}>{open ? "×" : "☰"}</button></div>
   </header>;
 }

@@ -1,9 +1,10 @@
-import PageMessages from "@/i18n/PageMessages";
 import { languageAlternates } from "@/lib/site";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getPostBySlug, getAllSlugs } from "@/lib/contentful";
-import BlogPostClient from "./BlogPostClient";
+import PostContent from "@/components/blog/PostContent";
+import { Link } from "@/i18n/navigation";
+
 import "./post.css";
 
 export const dynamicParams = false;
@@ -38,5 +39,26 @@ export default async function BlogPostPage({ params }) {
   const post = await getPostBySlug(slug);
   if (!post) notFound();
 
-  return <PageMessages locale={locale} namespaces={["blog.backToBlog"]}><BlogPostClient post={post} /></PageMessages>;
+  const t = await getTranslations({ locale });
+
+  return (
+    <main id="main-content" tabIndex={-1} className="container">
+      <div className="row mb-5 mt-3 pt-md-3">
+        <div className="col-lg-10 mx-auto">
+          <div className="post-header">
+            <h1>{post.title}</h1>
+            <p className="post-meta">
+              {new Date(post.publishedDate).toLocaleDateString(locale, { year: "numeric", month: "long", day: "numeric" })}
+            </p>
+            <div className="post-tags">
+              {post.tags.map((tag) => (<span key={tag} className="tag">{tag}</span>))}
+            </div>
+          </div>
+          {post.coverImage && <img src={post.coverImage} alt={post.title} className="post-cover" />}
+          <PostContent content={post.content} />
+          <Link href="/blog" className="back-link">&larr; {t("blog.backToBlog")}</Link>
+        </div>
+      </div>
+    </main>
+  );
 }

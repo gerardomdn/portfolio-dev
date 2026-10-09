@@ -1,9 +1,8 @@
-import PageMessages from "@/i18n/PageMessages";
 import { languageAlternates } from "@/lib/site";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getAllPosts } from "@/lib/contentful";
 import "./blog.css";
-import BlogClient from "./BlogClient";
+import PostCard from "@/components/blog/PostCard";
 
 export async function generateMetadata({ params }) {
   const { locale } = await params;
@@ -29,5 +28,23 @@ export default async function BlogPage({ params }) {
     posts = [];
   }
 
-  return <PageMessages locale={locale} namespaces={["blog"]}><BlogClient posts={posts} /></PageMessages>;
+  const t = await getTranslations({ locale });
+
+  return (
+    <main id="main-content" tabIndex={-1} className="container blog-listing">
+      <div className="row mb-5 mt-3 pt-md-3">
+        <div className="col-lg-8">
+          <h1 className="display-4 mb-4">{t("blog.pageTitle")}</h1>
+          <hr className="t_border my-4 ml-0 text-left" />
+        </div>
+      </div>
+      {posts.length === 0 ? (
+        <p>{t("blog.noPosts")}</p>
+      ) : (
+        <div className="blog-grid">
+          {posts.map((post) => (<PostCard key={post.slug} post={post} />))}
+        </div>
+      )}
+    </main>
+  );
 }

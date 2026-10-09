@@ -4,7 +4,6 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { routing } from "@/i18n/routing";
 import Headermain from "@/header";
 import { Socialicons } from "@/components/socialicons";
-import ThemeProvider from "@/components/themetoggle/ThemeProvider";
 
 export const dynamicParams = false;
 
@@ -33,13 +32,11 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale} data-scroll-behavior="smooth">
       <body>
         <NextIntlClientProvider locale={locale} messages={{ accessibility: messages.accessibility, nav: messages.nav, footer: messages.footer, social: messages.social }}>
-          <ThemeProvider>
-            <Headermain />
-            <div className="s_c">
-              {children}
-              <Socialicons />
-            </div>
-          </ThemeProvider>
+          <Headermain />
+          <div className="s_c">
+            {children}
+            <Socialicons />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>
